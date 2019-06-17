@@ -1,34 +1,38 @@
 {
-    "gameId": "c3044",
-    "name": "Doris",
-    "rarity": 3,
-    "classType": "soul-weaver",
-    "element": "light",
-    "zodiac": "cancer",
+    "gameId": "c1085",
+    "name": "Khawazu",
+    "rarity": 4,
+    "classType": "warrior",
+    "element": "fire",
+    "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Born to a noble Taranor family, Doris was forced to flee to Reingar after receiving a huge inheritance to escape her greedy stepmother. She wants to heal those wounded with her magic.",
+    "background": "A warrior of the Emberstorm tribe who ascended to Great Chief at a young age. He leads Meldrec with a stubborn insistence not to rely on outside assistance, but due to conflict between tribes, invading Unknowns, and the disappearance of Malicus, his troubles are starting to pile up.",
     "relations": [
         {
-            "hero": "arowell",
-            "relationType": "love"
+            "hero": "straze",
+            "relationType": "grudge"
         },
         {
-            "hero": "judith",
+            "hero": "ras",
             "relationType": "trust"
         },
         {
-            "hero": "serila",
+            "hero": "khawana",
+            "relationType": "trust"
+        },
+        {
+            "hero": "destina",
             "relationType": "longing"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1020,
-            "atk": 34,
-            "hp": 220,
-            "spd": 86,
-            "def": 73,
+            "cp": 1253,
+            "atk": 84,
+            "hp": 294,
+            "spd": 100,
+            "def": 66,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -36,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 9412,
-            "atk": 313,
-            "hp": 3302,
-            "spd": 86,
-            "def": 537,
+            "cp": 11276,
+            "atk": 713,
+            "hp": 4138,
+            "spd": 100,
+            "def": 452,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -48,11 +52,11 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 10874,
-            "atk": 433,
-            "hp": 4038,
-            "spd": 86,
-            "def": 569,
+            "cp": 12819,
+            "atk": 854,
+            "hp": 4850,
+            "spd": 100,
+            "def": 479,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -60,11 +64,10 @@
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 11737,
-            "atk": 390,
-            "hp": 4152,
-            "spd": 96,
-            "def": 666,
+            "cp": 14079,
+            "hp": 5203,
+            "spd": 100,
+            "def": 561,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -72,11 +75,11 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 13801,
-            "atk": 540,
-            "hp": 5319,
-            "spd": 86,
-            "def": 705,
+            "cp": 16221,
+            "atk": 1119,
+            "hp": 6091,
+            "spd": 100,
+            "def": 594,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -87,14 +90,14 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "100% chance to burn.",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Mana Bullet",
+            "name": "Flame Strike",
             "soulAcquire": 1,
-            "description": "Attacks with light energy, with a 50% chance to decrease Hit Chance for 1 turn.",
+            "description": "Attacks the enemy with a ball of flame, with a 25% chance to burn for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -110,7 +113,7 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -123,41 +126,54 @@
                     ]
                 },
                 {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
                     "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 3
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
                 {
-                    "description": "+15% effect chance",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 22000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 4
+                            "item": "sharp-spearhead",
+                            "qty": 2
                         }
                     ]
                 },
                 {
-                    "description": "+15% damage dealt",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -168,22 +184,39 @@
                             "qty": 1
                         },
                         {
-                            "item": "baby-mouse-insignia",
+                            "item": "sharp-spearhead",
                             "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blind"
+                "stic_blaze"
             ],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 0.95,
+                    "soulburn": 0.95
                 },
                 {
                     "name": "statModifier",
@@ -198,97 +231,36 @@
             ]
         },
         {
-            "isPassive": false,
-            "soulBurn": 10,
+            "isPassive": true,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Extends buff duration by 1 turn.",
+            "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 5,
-            "name": "Celebration of Light",
-            "soulAcquire": 2,
-            "description": "Recites the Celebration of Light, recovering the Health of all allies and granting continuous healing and increased Defense for 2 turns. Amount recovered is proportional to the target's max Health.",
+            "cooldown": 0,
+            "name": "Composure",
+            "soulAcquire": 0,
+            "description": "All debuffs are dispelled and Burning Vitality is activated if attacked while debuffed. Can only be activated once every 3 turn(s).\nBurning Vitality: Increases Attack of the caster for 2 turns.",
             "enhancement": [
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 60000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 3
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 32000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 4
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 45000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "baby-mouse-insignia",
                             "qty": 5
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 8
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_heal",
-                "stic_def_up"
+                "stic_att_up"
             ],
             "debuffs": [],
             "damageModifiers": [
@@ -316,13 +288,13 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 3,
-            "name": "Light Curtain",
-            "soulAcquire": 2,
-            "description": "Recovers an ally's Health and increases their Combat Readiness by 30% with light magic. If granted continuous healing, the amount of Health recovered is doubled. Healing is proportional to the ally's max Health.",
+            "cooldown": 4,
+            "name": "Emberstorm",
+            "soulAcquire": 0,
+            "description": "Attacks with a fiery explosion, making the target unhealable for 2 turns.",
             "enhancement": [
                 {
-                    "description": "+5% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -335,7 +307,7 @@
                     ]
                 },
                 {
-                    "description": "+5% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -348,41 +320,54 @@
                     ]
                 },
                 {
-                    "description": "+10% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 3
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
                 {
-                    "description": "+15% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 22000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 4
+                            "item": "sharp-spearhead",
+                            "qty": 2
                         }
                     ]
                 },
                 {
-                    "description": "+15% healing",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -393,20 +378,39 @@
                             "qty": 1
                         },
                         {
-                            "item": "baby-mouse-insignia",
+                            "item": "sharp-spearhead",
                             "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_heal_impossible"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 1.0,
+                    "soulburn": 1.0
                 },
                 {
                     "name": "statModifier",
@@ -415,51 +419,51 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 1.0,
+                    "soulburn": 1.0
                 }
             ]
         }
     ],
     "specialtySkill": {
-        "name": "Family Heritage",
-        "description": "The knowledge of past generations guides her.",
-        "dispatch": "[Hidden Clue] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Unshakeable Will",
+        "description": "Right or wrong, he has the will to see his decisions through to the end.",
+        "dispatch": "[Intelligence] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 8,
-            "charm": 38,
-            "politics": 25
+            "command": 82,
+            "charm": 69,
+            "politics": 84
         }
     },
     "camping": {
         "options": [
-            "reality-check",
-            "happy-memory"
+            "Option1",
+            "Option2"
         ],
         "reactions": {
-            "advice": 3,
-            "belief": 3,
-            "bizarre-story": 2,
-            "comforting-cheer": 1,
-            "complain": -3,
-            "criticism": 1,
-            "cute-cheer": 3,
-            "dream": 1,
+            "advice": 0,
+            "belief": 0,
+            "bizarre-story": 0,
+            "comforting-cheer": 0,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": 0,
+            "dream": 0,
             "food-story": 0,
-            "gossip": 3,
-            "happy-memory": 2,
-            "heroic-cheer": 3,
-            "heroic-tale": 1,
-            "horror-story": -1,
-            "interesting-story": 3,
-            "joyful-memory": 3,
-            "myth": 1,
+            "gossip": 0,
+            "happy-memory": 0,
+            "heroic-cheer": 0,
+            "heroic-tale": 0,
+            "horror-story": 0,
+            "interesting-story": 0,
+            "joyful-memory": 0,
+            "myth": 0,
             "occult": 0,
-            "reality-check": -1,
+            "reality-check": 0,
             "sad-memory": 0,
-            "self-indulgent": -3,
-            "unique-comment": 3
+            "self-indulgent": 0,
+            "unique-comment": 0
         }
     },
     "memoryImprintFormation": {
@@ -474,49 +478,49 @@
             "rank": "d",
             "status": {
                 "type": "hp",
-                "increase": 120
+                "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
                 "type": "hp",
-                "increase": 180
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "hp",
-                "increase": 240
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "hp",
-                "increase": 300
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "hp",
-                "increase": 360
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "hp",
-                "increase": 420
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "hp",
-                "increase": 480
+                "increase": 0.084
             }
         }
     ],
@@ -537,8 +541,8 @@
             ],
             "resources": [
                 {
-                    "item": "light-rune",
-                    "qty": 5
+                    "item": "flame-rune",
+                    "qty": 8
                 }
             ]
         },
@@ -547,7 +551,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -558,8 +562,12 @@
             ],
             "resources": [
                 {
-                    "item": "light-rune",
-                    "qty": 9
+                    "item": "flame-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 2
                 }
             ]
         },
@@ -576,12 +584,12 @@
             ],
             "resources": [
                 {
-                    "item": "light-rune",
-                    "qty": 12
+                    "item": "flame-rune",
+                    "qty": 17
                 },
                 {
-                    "item": "greater-light-rune",
-                    "qty": 6
+                    "item": "greater-flame-rune",
+                    "qty": 8
                 }
             ]
         },
@@ -601,8 +609,12 @@
             ],
             "resources": [
                 {
-                    "item": "greater-light-rune",
-                    "qty": 15
+                    "item": "greater-flame-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 2
                 }
             ]
         },
@@ -622,12 +634,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-light-rune",
-                    "qty": 4
+                    "item": "epic-flame-rune",
+                    "qty": 5
                 },
                 {
-                    "item": "special-alarm-loop",
-                    "qty": 9
+                    "item": "erikion-carapace",
+                    "qty": 12
                 }
             ]
         },
@@ -636,7 +648,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -647,12 +659,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-light-rune",
-                    "qty": 6
+                    "item": "epic-flame-rune",
+                    "qty": 8
                 },
                 {
-                    "item": "the-heart-of-hypocrisy",
-                    "qty": 6
+                    "item": "black-curse-powder",
+                    "qty": 8
                 }
             ]
         }
