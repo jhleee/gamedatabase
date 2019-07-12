@@ -106,11 +106,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -136,11 +136,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -256,11 +256,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -303,11 +303,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -370,23 +370,23 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": -50,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Amount of Health recovered is doubled.",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 0,
             "name": "Fury's Advent",
             "soulAcquire": 2,
-            "description": "Strengthens the caster with fighting spirit for 3 turns, recovering Health, and increasing Defense for 3 turns. Grants extra turn.\nShield Slam: Increases Damage dealt, stunning the enemy for 1 turn.\nMacerate: Decreases the enemy's Combat Readiness twice.\nWhen attacked, acquires 10 Fighting Spirit.",
+            "description": "Strengthens the caster with fighting spirit for 3 turns, recovering Health, and increasing Defense for 3 turns. Grants extra turn.\nShield Slam: Increases Damage dealt, stunning for 1 turn.\nMacerate: Decreases the enemy's Combat Readiness twice.\nAcquires 10 Fighting Spirit when attacking or attacked.",
             "enhancement": [
                 {
                     "description": "+2 Soul acquired",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -395,15 +395,15 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+20% healing",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 50000
+                            "qty": 42000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "the-heart-of-hypocrisy",

@@ -1,12 +1,15 @@
 {
     "hero": [
+        "apocalypse-ravi",
+        "lilibet",
+        "champion-zerato",
         "khawazu",
-        "fallen-cecilia",
-        "luluca",
-        "angelic-montmorancy"
+        "fallen-cecilia"
     ],
     "artifact": [
-        "spirits-breath",
-        "tear-of-the-desert"
+        "proof-of-valor",
+        "creation-destruction",
+        "crimson-seed",
+        "spirits-breath"
     ]
 }

@@ -80,7 +80,7 @@
         {
             "isPassive": false,
             "soulBurn": 20,
-            "selfSkillBarValue": 10,
+            "selfSkillBarValue": 30,
             "soulBurnEffect": "Greatly increases amount of damage dealt. Does not trigger a Dual Attack.",
             "awakenUpgrade": false,
             "cooldown": 0,
@@ -153,11 +153,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 84000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "dragons-wrath",
@@ -196,7 +196,7 @@
             "cooldown": 0,
             "name": "Demon's Blood",
             "soulAcquire": 0,
-            "description": "Increases Attack proportional to fighting spirit. When attacked, Combat Readiness increases by 8% and 5 Fighting Spirit is gained.",
+            "description": "Increases Attack of caster when they attack or are attacked. Effect can only stack up to 5 times. When attacked, increases Combat Readiness by 8%, and 5 Fighting Spirit is acquired.",
             "enhancement": [
                 {
                     "description": "+1% Combat Readiness",
@@ -263,11 +263,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 84000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "dragons-wrath",
@@ -373,11 +373,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 84000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "dragons-wrath",

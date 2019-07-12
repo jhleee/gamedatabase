@@ -118,11 +118,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -131,11 +131,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -228,11 +228,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -241,11 +241,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -315,7 +315,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Blade Art: Dragon",
             "soulAcquire": 2,
             "description": "Attacks all enemies, sacrificing 20% of the caster's Health. Grants the caster an extra turn when an enemy is defeated.",
@@ -338,11 +338,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -351,11 +351,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -414,8 +414,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 1.0,
-                    "soulburn": 1.25
+                    "value": 1.2,
+                    "soulburn": 1.45
                 }
             ]
         }

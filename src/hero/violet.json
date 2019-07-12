@@ -118,11 +118,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -161,11 +161,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "sharp-spearhead",
@@ -240,18 +240,18 @@
             "cooldown": 5,
             "name": "Duel Accepted",
             "soulAcquire": 2,
-            "description": "Prepares for a duel by recovering Health, granting an extra turn to the caster. If the skill is on cooldown, increases Evasion Chance by 30%. After successfully evading, gains 1 Focus and counterattacks. Amount recovered is proportional to the caster's max Health.",
+            "description": "Prepares for a duel by dispelling two debuffs, recovering Health by 15%, and granting an extra turn. If this skill is on cooldown, Evasion increases by 35%. After successfully evading, counterattacks with Graceful Cut and gains 1 Focus.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 64000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "sharp-spearhead",
@@ -310,11 +310,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -353,11 +353,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "sharp-spearhead",

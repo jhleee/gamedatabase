@@ -118,11 +118,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -161,11 +161,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "flame-of-soul",
@@ -260,11 +260,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -303,11 +303,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "flame-of-soul",
@@ -380,18 +380,18 @@
             "cooldown": 6,
             "name": "VIP Treatment",
             "soulAcquire": 3,
-            "description": "Entertains all allies with VIP Treatment, granting revive and increased Attack for 3 turns.",
+            "description": "Entertains all allies with VIP Treatment, reviving all dead allies to 20% Health, and granting revive for 3 turns to all living allies. Increases Attack of all allies for 3 turns.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 64000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "flame-of-soul",
