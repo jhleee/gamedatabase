@@ -5,7 +5,7 @@
     "classType": "knight",
     "element": "fire",
     "zodiac": "leo",
-    "specialtyChangeName": "",
+    "specialtyChangeName": "chaos-inquisitor",
     "selfSkillBarName": "",
     "background": "The main duty of the Church of Ilryos Butcher Corps is to track down and punish traitors or fugitives.",
     "relations": [
@@ -20,12 +20,12 @@
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 2223,
-            "atk": 221,
-            "hp": 670,
+            "cp": 1112,
+            "atk": 61,
+            "hp": 250,
             "spd": 95,
             "def": 67,
-            "chc": 0.21,
+            "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,

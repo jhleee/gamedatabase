@@ -1,92 +1,100 @@
 {
-    "gameId": "c1019",
-    "name": "Ravi",
+    "gameId": "c5071",
+    "name": "Seaside Bellona",
     "rarity": 5,
-    "classType": "warrior",
-    "element": "fire",
-    "zodiac": "capricorn",
+    "classType": "ranger",
+    "element": "ice",
+    "zodiac": "gemini",
     "specialtyChangeName": "",
-    "selfSkillBarName": "fighting-spirit",
-    "background": "Ravi once was a quiet girl living in a countryside, until she fell into a victim of the Homunculus experiments and became a Wraith. Since Ravi was made by the power of Tenebria, she strongly believes she is the chosen one.",
+    "selfSkillBarName": "focus",
+    "background": "Bellona came to provide Reingar PSC with any help they needed to assist visitors from Reingar. Although she says she's here to watch over Sez, it seems that her true goal is to relax in the resort.",
     "relations": [
         {
-            "hero": "tenebria",
-            "relationType": "longing"
+            "hero": "sez",
+            "relationType": "trust"
+        },
+        {
+            "hero": "karin",
+            "relationType": "trust"
+        },
+        {
+            "hero": "rin",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1406,
-            "atk": 81,
-            "hp": 351,
-            "spd": 102,
-            "def": 77,
+            "cp": 1372,
+            "atk": 90,
+            "hp": 292,
+            "spd": 114,
+            "def": 71,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 12050,
-            "atk": 655,
-            "hp": 4653,
-            "spd": 102,
-            "def": 500,
+            "cp": 11517,
+            "atk": 720,
+            "hp": 3881,
+            "spd": 114,
+            "def": 460,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 13730,
-            "atk": 775,
-            "hp": 5551,
-            "spd": 102,
-            "def": 530,
+            "cp": 13288,
+            "atk": 904,
+            "hp": 4221,
+            "spd": 114,
+            "def": 460,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0.18,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 15038,
-            "atk": 816,
-            "hp": 5850,
-            "spd": 102,
-            "def": 620,
+            "cp": 14378,
+            "atk": 898,
+            "hp": 4879,
+            "spd": 114,
+            "def": 571,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 17484,
-            "atk": 966,
-            "hp": 7323,
-            "spd": 102,
-            "def": 657,
+            "cp": 16848,
+            "atk": 1182,
+            "hp": 5299,
+            "spd": 114,
+            "def": 571,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0.18,
+            "efr": 0,
             "dac": 0.05
         }
     },
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 20,
-            "selfSkillBarValue": 30,
-            "soulBurnEffect": "Greatly increases amount of damage dealt. Does not trigger a Dual Attack.",
-            "awakenUpgrade": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
             "cooldown": 0,
-            "name": "Slaughter",
+            "name": "Watch Out",
             "soulAcquire": 1,
-            "description": "Attacks with a double-edged axe and absorbs some of the damage as Health.",
+            "description": "Attacks the enemy with a fan, with a 60% chance to target the enemy for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -102,7 +110,7 @@
                     ]
                 },
                 {
-                    "description": "+15% healing",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -115,65 +123,84 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "slime-jelly",
-                            "qty": 5
+                            "item": "ring-of-glory",
+                            "qty": 2
                         }
                     ]
                 },
                 {
-                    "description": "+15% healing",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 47000
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "slime-jelly",
-                            "qty": 7
+                            "item": "ring-of-glory",
+                            "qty": 4
                         }
                     ]
                 },
                 {
-                    "description": "+15% damage dealt",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 45000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 6
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
-                            "item": "dragons-wrath",
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
                             "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_sign"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "statModifier",
@@ -182,8 +209,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 1.0,
-                    "soulburn": 2.5
+                    "value": 1,
+                    "soulburn": 1
                 }
             ]
         },
@@ -194,160 +221,24 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Demon's Blood",
+            "name": "I'm with My Friends",
             "soulAcquire": 0,
-            "description": "Increases Attack of caster when they attack or are attacked. Effect can only stack up to 5 times. When attacked, increases Combat Readiness by 8%, and 5 Fighting Spirit is acquired.",
+            "description": "Shares 30% of damage suffered by the caster with the foremost ally. When more than one damage sharing effect is granted, only the strongest effect is applied. The caster gains 1 Focus when an ally is attacked. When an ally is attacked and the caster's stacked Focus is 5, loses all Focus and activates You're Not Cute.\nYou're Not Cute: Attacks all enemies with a fan, with a 50% chance to decrease Defense for 2 turns.",
             "enhancement": [
                 {
-                    "description": "+1% Combat Readiness",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 33000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "slime-jelly",
-                            "qty": 5
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 47000
-                        },
-                        {
-                            "item": "molagora",
+                            "item": "ring-of-glory",
                             "qty": 3
-                        },
-                        {
-                            "item": "slime-jelly",
-                            "qty": 7
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 84000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "dragons-wrath",
-                            "qty": 2
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": [],
-            "damageModifiers": [
-                {
-                    "name": "pow",
-                    "section": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
-                },
-                {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.0,
-                    "soulburn": 0.0
-                }
-            ]
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": -80,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 0,
-            "name": "Devil Drive",
-            "soulAcquire": 3,
-            "description": "Brutally attacks all enemies, with a 75% chance to stun for 1 turn and decrease their Combat Readiness to 0%.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        }
-                    ]
-                },
-                {
-                    "description": "Consume -10 Fighting Spirit",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 33000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "slime-jelly",
-                            "qty": 5
                         }
                     ]
                 },
@@ -356,15 +247,15 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 47000
+                            "qty": 37000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "slime-jelly",
-                            "qty": 7
+                            "item": "ring-of-glory",
+                            "qty": 5
                         }
                     ]
                 },
@@ -373,29 +264,29 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 114000
                         },
                         {
                             "item": "molagora",
                             "qty": 6
                         },
                         {
-                            "item": "dragons-wrath",
-                            "qty": 2
+                            "item": "fused-nerve",
+                            "qty": 3
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_stun"
+                "stic_def_dn"
             ],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 0.95,
-                    "soulburn": 0.95
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "statModifier",
@@ -404,108 +295,238 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 1.2,
-                    "soulburn": 1.2
+                    "value": 0.7,
+                    "soulburn": 0.7
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Ignores effect resistance.",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Haven't I Warned You?",
+            "soulAcquire": 3,
+            "description": "Attacks all enemies with a spray of water, with a 85% chance to make them unable to be buffed and unhealable for 2 turns. Damage dealt increases with a critical hit.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_buf_impossible",
+                "stic_heal_impossible"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1,
+                    "soulburn": 1
                 }
             ]
         }
     ],
     "specialtySkill": {
-        "name": "Blood Burst",
-        "description": "She vanquishes all enemies according to Acolyte Tenebria's will.",
-        "dispatch": "[Strong Leader] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Keep Your Distance",
+        "description": "She won't tolerate anyone who disturbs her relaxing vacation.",
+        "dispatch": "[Security] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 56,
-            "charm": 43,
-            "politics": 32
+            "command": 14,
+            "charm": 91,
+            "politics": 12
         }
     },
     "camping": {
         "options": [
-            "self-indulgent",
-            "food-story"
+            "food-story",
+            "interesting-story"
         ],
         "reactions": {
-            "advice": 6,
-            "belief": 0,
-            "bizarre-story": 2,
-            "comforting-cheer": 6,
-            "complain": -7,
-            "criticism": 8,
-            "cute-cheer": 4,
-            "dream": 2,
-            "food-story": 0,
-            "gossip": -4,
-            "happy-memory": 0,
-            "heroic-cheer": -6,
-            "heroic-tale": 2,
-            "horror-story": 3,
-            "interesting-story": 0,
-            "joyful-memory": 0,
+            "advice": 1,
+            "belief": 1,
+            "bizarre-story": 3,
+            "comforting-cheer": 1,
+            "complain": 2,
+            "criticism": -1,
+            "cute-cheer": 5,
+            "dream": 6,
+            "food-story": 4,
+            "gossip": 2,
+            "happy-memory": 3,
+            "heroic-cheer": 4,
+            "heroic-tale": 3,
+            "horror-story": 2,
+            "interesting-story": 7,
+            "joyful-memory": 5,
             "myth": 2,
-            "occult": 6,
-            "reality-check": -1,
-            "sad-memory": 4,
-            "self-indulgent": -2,
+            "occult": 2,
+            "reality-check": -3,
+            "sad-memory": 2,
+            "self-indulgent": 2,
             "unique-comment": 5
         }
     },
     "memoryImprintFormation": {
         "north": true,
-        "south": true,
+        "south": false,
         "east": true,
-        "west": true
+        "west": false
     },
-    "memoryImprintAttribute": "atk",
+    "memoryImprintAttribute": "",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "atk",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "atk",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "atk",
-                "increase": 0.036
+                "type": "hp",
+                "increase": 0.043
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "atk",
-                "increase": 0.054
+                "type": "hp",
+                "increase": 0.065
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "atk",
-                "increase": 0.072
+                "type": "hp",
+                "increase": 0.086
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "atk",
-                "increase": 0.09
+                "type": "hp",
+                "increase": 0.107
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "atk",
-                "increase": 0.108
+                "type": "hp",
+                "increase": 0.129
             }
         }
     ],
@@ -515,7 +536,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -526,7 +547,7 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
+                    "item": "frost-rune",
                     "qty": 10
                 }
             ]
@@ -536,7 +557,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -547,11 +568,11 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
+                    "item": "frost-rune",
                     "qty": 15
                 },
                 {
-                    "item": "greater-flame-rune",
+                    "item": "greater-frost-rune",
                     "qty": 2
                 }
             ]
@@ -569,11 +590,11 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
+                    "item": "frost-rune",
                     "qty": 20
                 },
                 {
-                    "item": "greater-flame-rune",
+                    "item": "greater-frost-rune",
                     "qty": 10
                 }
             ]
@@ -583,7 +604,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -594,11 +615,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-flame-rune",
+                    "item": "greater-frost-rune",
                     "qty": 10
                 },
                 {
-                    "item": "epic-flame-rune",
+                    "item": "epic-frost-rune",
                     "qty": 2
                 }
             ]
@@ -608,7 +629,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -619,11 +640,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
+                    "item": "epic-frost-rune",
                     "qty": 6
                 },
                 {
-                    "item": "cursed-ashes",
+                    "item": "small-sun-badge",
                     "qty": 15
                 }
             ]
@@ -633,7 +654,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -644,11 +665,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
+                    "item": "epic-frost-rune",
                     "qty": 10
                 },
                 {
-                    "item": "dragons-wrath",
+                    "item": "fused-nerve",
                     "qty": 10
                 }
             ]
