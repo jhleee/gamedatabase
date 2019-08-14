@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "crozet",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aither",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ras",
@@ -185,25 +185,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.9,
                     "soulburn": 0.9
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.9 * hero_atk) * 1.0",
-                "soulburn": "(0.9 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.6839 * hero_atk))",
+                "soulburn": "((0.9 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk))"
             }
         },
         {
@@ -215,7 +211,7 @@
             "cooldown": 4,
             "name": "Fox Hunt",
             "soulAcquire": 2,
-            "description": "Attacks with a slingshot, with a 75% chance to decrease Defense for 2 turns, and a 30% chance to use Sparrow Dive.",
+            "description": "Attacks with a slingshot, with a 75% chance to decrease Defense for 2 turns, and a 50% chance to use Sparrow Dive.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -302,25 +298,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.05,
                     "soulburn": 1.05
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 1.2,
-                    "soulburn": 1.2
+                    "name": "atk_rate",
+                    "value": 1.35,
+                    "soulburn": 1.35
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.2 * hero_atk) * 1.05",
-                "soulburn": "(1.2 * hero_atk) * 1.05"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.35 * hero_atk)) * 1.05 * 1.871",
+                "simplified": "((2.6521 * hero_atk))",
+                "soulburn": "((1.35 * hero_atk)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((2.6521 * hero_atk))"
             }
         },
         {
@@ -329,10 +321,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Flying Racoo",
             "soulAcquire": 2,
-            "description": "Racoo flies into the enemies like a bullet and attacks all of them, decreasing Speed for 2 turns, with a 50% chance to stun.",
+            "description": "Racoo flies into the enemies like a bullet and attacks all of them, decreasing Speed for 2 turns, with a 75% chance to stun.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -420,25 +412,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.8,
                     "soulburn": 0.8
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.8,
                     "soulburn": 0.8
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.8 * hero_atk) * 0.8",
-                "soulburn": "(0.8 * hero_atk) * 0.8"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * 0.8 * 1.871",
+                "simplified": "((1.1974 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((1.1974 * hero_atk))"
             }
         }
     ],

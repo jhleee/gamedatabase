@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "alexa",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tieria",
@@ -23,15 +23,15 @@
         },
         {
             "hero": "elson",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "iseria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "clarissa",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
@@ -193,25 +193,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.0 * hero_atk) * 1.0",
-                "soulburn": "(1.0 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
         {
@@ -310,25 +306,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.9,
                     "soulburn": 0.9
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.5,
                     "soulburn": 1.5
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.5 * hero_atk) * 0.9",
-                "soulburn": "(1.5 * hero_atk) * 0.9"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * 0.9 * 1.871",
+                "simplified": "((2.5259 * hero_atk))",
+                "soulburn": "((1.5 * hero_atk)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((2.5259 * hero_atk))"
             }
         },
         {
@@ -427,25 +419,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.8,
                     "soulburn": 2.3
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.8 * hero_atk) * 0.95",
-                "soulburn": "(2.3 * hero_atk) * 0.95"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((3.1994 * hero_atk))",
+                "soulburn": "((2.3 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((4.0881 * hero_atk))"
             }
         }
     ],

@@ -11,23 +11,23 @@
     "relations": [
         {
             "hero": "aramintha",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "kiris",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "violet",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "bellona",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
@@ -189,25 +189,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "target_hp_missing_rate",
+                    "value": 0.002,
+                    "soulburn": 0.002
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.0 * hero_atk) * 0.95",
-                "soulburn": "(1.0 * hero_atk) * 0.95"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_hp_missing_rate * target_hp_lost_percent))) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "simplified": "((1.7774 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent)))",
+                "soulburn": "((1.0 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.7774 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent)))"
             }
         },
         {
@@ -305,25 +306,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.5,
                     "soulburn": 0.5
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.5 * hero_atk) * 1.0",
-                "soulburn": "(0.5 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.5 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((0.9355 * hero_atk))",
+                "soulburn": "((0.5 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((0.9355 * hero_atk))"
             }
         },
         {
@@ -419,25 +416,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.8,
                     "soulburn": 1.8
+                },
+                {
+                    "name": "target_hp_missing_rate",
+                    "value": 0.003,
+                    "soulburn": 0.007
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.8 * hero_atk) * 0.95",
-                "soulburn": "(1.8 * hero_atk) * 0.95"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_hp_missing_rate * target_hp_lost_percent))) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * (1 + ((0.003 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "simplified": "((3.1994 * hero_atk)) * (1 + ((0.003 * target_hp_lost_percent)))",
+                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.003 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((3.1994 * hero_atk)) * (1 + ((0.007 * target_hp_lost_percent)))"
             }
         }
     ],

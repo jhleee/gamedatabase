@@ -15,7 +15,7 @@
         },
         {
             "hero": "tywin",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
@@ -194,35 +194,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.8,
                     "soulburn": 0.8
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "def",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "def_rate",
                     "value": 0.6,
                     "soulburn": 0.6
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.8 * hero_atk) * 1.0",
-                "soulburn": "(0.8 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
+                "value": "((0.8 * hero_atk) + (0.6 * hero_def)) * 1.0 * 1.871",
+                "simplified": "((1.4968 * hero_atk) + (1.1226 * hero_def))",
+                "soulburn": "((0.8 * hero_atk) + (0.6 * hero_def)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.4968 * hero_atk) + (1.1226 * hero_def))"
             }
         },
         {
@@ -349,17 +340,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }
@@ -367,7 +352,9 @@
             "simpleDmgMod": {
                 "description": "",
                 "value": "",
-                "soulburn": ""
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
             }
         },
         {
@@ -424,17 +411,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }
@@ -442,7 +423,9 @@
             "simpleDmgMod": {
                 "description": "",
                 "value": "",
-                "soulburn": ""
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
             }
         }
     ],

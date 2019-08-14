@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "purrgis",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "mucacha",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
@@ -202,25 +202,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.0 * hero_atk) * 1.0",
-                "soulburn": "(1.0 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
         {
@@ -291,17 +287,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }
@@ -309,7 +299,9 @@
             "simpleDmgMod": {
                 "description": "",
                 "value": "",
-                "soulburn": ""
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
             }
         },
         {
@@ -427,25 +419,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.8,
                     "soulburn": 0.8
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.8 * hero_atk) * 1.0",
-                "soulburn": "(0.8 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.4968 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.4968 * hero_atk))"
             }
         }
     ],
@@ -496,55 +484,55 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "hp",
+    "memoryImprintAttribute": "dac",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "hp",
+                "type": "dac",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "hp",
-                "increase": 0.024
+                "type": "dac",
+                "increase": 0.007
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
-                "increase": 0.036
+                "type": "dac",
+                "increase": 0.011
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
-                "increase": 0.048
+                "type": "dac",
+                "increase": 0.014
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
-                "increase": 0.06
+                "type": "dac",
+                "increase": 0.018
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
-                "increase": 0.072
+                "type": "dac",
+                "increase": 0.021
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
-                "increase": 0.084
+                "type": "dac",
+                "increase": 0.025
             }
         }
     ],

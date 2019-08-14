@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "pyllis",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "assassin-coli",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "assassin-cidd",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
@@ -181,25 +181,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.0 * hero_atk) * 1.0",
-                "soulburn": "(1.0 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
         {
@@ -299,25 +295,21 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.5,
                     "soulburn": 2.0
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.5 * hero_atk) * 1.0",
-                "soulburn": "(2.0 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((2.8065 * hero_atk))",
+                "soulburn": "((2.0 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((3.742 * hero_atk))"
             }
         },
         {
@@ -416,25 +408,34 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "skill_dmg_list",
+                    "value": [
+                        2.5,
+                        2.0,
+                        0.0
+                    ],
+                    "soulburn": [
+                        2.5,
+                        2.0,
+                        0.0
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(1.0 * hero_atk) * 1.0",
-                "soulburn": "(1.0 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_list))) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * (1 + (([2.5, 2.0, 0.0]))) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk)) * (1 + (([2.5, 2.0, 0.0])))",
+                "soulburn": "((1.0 * hero_atk)) * (1 + (([2.5, 2.0, 0.0]))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + (([2.5, 2.0, 0.0])))"
             }
         }
     ],
