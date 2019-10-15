@@ -1,6 +1,7 @@
 {
     "gameId": "c3002",
     "name": "Taranor Royal Guard",
+    "surname": "",
     "rarity": 3,
     "classType": "knight",
     "element": "ice",
@@ -101,11 +102,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -117,8 +118,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -127,11 +128,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "sharp-spearhead",
@@ -144,11 +145,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "sharp-spearhead",
@@ -161,11 +162,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "sharp-spearhead",
@@ -197,9 +198,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.8 * hero_atk) + (0.025 * hero_hp)) * 1.0 * 1.871",
+                "value": "((0.8 * hero_atk) + (0.025 * hero_hp)) * 1 * 1.871",
                 "simplified": "((1.4968 * hero_atk) + (0.0468 * hero_hp))",
-                "soulburn": "((0.8 * hero_atk) + (0.025 * hero_hp)) * 1.0 * 1.871",
+                "soulburn": "((0.8 * hero_atk) + (0.025 * hero_hp)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.4968 * hero_atk) + (0.0468 * hero_hp))"
             }
         },
@@ -219,11 +220,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -235,8 +236,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -245,11 +246,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "sharp-spearhead",
@@ -262,11 +263,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "sharp-spearhead",
@@ -279,11 +280,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "sharp-spearhead",
@@ -330,11 +331,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -346,8 +347,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -356,11 +357,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "sharp-spearhead",
@@ -373,11 +374,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "sharp-spearhead",
@@ -390,11 +391,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "sharp-spearhead",

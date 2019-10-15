@@ -1,6 +1,7 @@
 {
     "gameId": "c3013",
     "name": "Roozid",
+    "surname": "",
     "rarity": 3,
     "classType": "thief",
     "element": "earth",
@@ -101,11 +102,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -117,8 +118,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -127,11 +128,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "ring-of-glory",
@@ -144,11 +145,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "ring-of-glory",
@@ -161,11 +162,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "ring-of-glory",
@@ -197,9 +198,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
-                "value": "((0.8 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
+                "value": "((0.8 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
                 "simplified": "((1.4968 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
-                "soulburn": "((0.8 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
+                "soulburn": "((0.8 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.4968 * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
             }
         },
@@ -219,11 +220,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -235,8 +236,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -245,11 +246,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "ring-of-glory",
@@ -262,11 +263,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "ring-of-glory",
@@ -279,11 +280,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "ring-of-glory",
@@ -315,9 +316,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
-                "value": "((1.2 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 1.0 * 1.871",
+                "value": "((1.2 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 1 * 1.871",
                 "simplified": "((2.2452 * hero_atk)) * (1 + ((0.001125 * hero_spd)))",
-                "soulburn": "((1.2 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 1.0 * 1.871",
+                "soulburn": "((1.2 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 1 * 1.871",
                 "simplifiedSoulburn": "((2.2452 * hero_atk)) * (1 + ((0.001125 * hero_spd)))"
             }
         },
@@ -337,11 +338,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -353,8 +354,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -363,11 +364,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "ring-of-glory",
@@ -380,11 +381,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "ring-of-glory",
@@ -397,11 +398,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "ring-of-glory",

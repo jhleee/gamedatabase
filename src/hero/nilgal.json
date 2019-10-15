@@ -1,6 +1,7 @@
 {
     "gameId": "m9191",
     "name": "Nilgal",
+    "surname": "",
     "rarity": 5,
     "classType": "warrior",
     "element": "earth",
@@ -93,11 +94,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 52000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "archers-vision",
@@ -144,11 +145,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 52000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "archers-vision",
@@ -195,11 +196,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 52000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "archers-vision",

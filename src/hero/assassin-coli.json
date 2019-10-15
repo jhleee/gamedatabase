@@ -1,6 +1,7 @@
 {
     "gameId": "c2033",
     "name": "Assassin Coli",
+    "surname": "",
     "rarity": 4,
     "classType": "thief",
     "element": "dark",
@@ -118,11 +119,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -135,11 +136,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -195,10 +196,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
-                "value": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
-                "simplified": "(([1.684, 2.245] * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
-                "soulburn": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
-                "simplifiedSoulburn": "(([1.684, 2.245] * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
+                "value": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplified": "(([1.6839, 2.2452] * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplifiedSoulburn": "(([1.6839, 2.2452] * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
             }
         },
         {
@@ -230,11 +231,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -247,11 +248,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -357,11 +358,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -374,11 +375,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "shiny-enchantment",
@@ -447,7 +448,7 @@
                 "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
                 "value": "((1.5 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 0.8 * 1.871",
                 "simplified": "((2.2452 * hero_atk)) * (1 + ((0.001125 * hero_spd)))",
-                "soulburn": "((3.0 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 0.8 * 1.871",
+                "soulburn": "((3 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 0.8 * 1.871",
                 "simplifiedSoulburn": "((4.4904 * hero_atk)) * (1 + ((0.001125 * hero_spd)))"
             }
         }

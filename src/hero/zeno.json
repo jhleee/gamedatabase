@@ -1,6 +1,7 @@
 {
     "gameId": "c1083",
     "name": "Zeno",
+    "surname": "",
     "rarity": 5,
     "classType": "mage",
     "element": "ice",
@@ -110,11 +111,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -123,11 +124,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -157,11 +158,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "horn-of-desire",
@@ -193,9 +194,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.5 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "value": "((0.5 * hero_atk) + (0.1 * hero_hp)) * 1 * 1.871",
                 "simplified": "((0.9355 * hero_atk) + (0.1871 * hero_hp))",
-                "soulburn": "((0.5 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "soulburn": "((0.5 * hero_atk) + (0.1 * hero_hp)) * 1 * 1.871",
                 "simplifiedSoulburn": "((0.9355 * hero_atk) + (0.1871 * hero_hp))"
             }
         },
@@ -228,11 +229,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -241,11 +242,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -275,11 +276,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "horn-of-desire",
@@ -339,11 +340,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -352,11 +353,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -386,11 +387,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "horn-of-desire",
@@ -434,9 +435,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((0.5 * hero_atk) + (0.12 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count))) * 1.0 * 1.871",
+                "value": "((0.5 * hero_atk) + (0.12 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count))) * 1 * 1.871",
                 "simplified": "((0.9355 * hero_atk) + (0.2245 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count)))",
-                "soulburn": "((0.5 * hero_atk) + (0.12 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count))) * 1.0 * 1.871",
+                "soulburn": "((0.5 * hero_atk) + (0.12 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count))) * 1 * 1.871",
                 "simplifiedSoulburn": "((0.9355 * hero_atk) + (0.2245 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count)))"
             }
         }

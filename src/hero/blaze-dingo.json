@@ -1,6 +1,7 @@
 {
     "gameId": "c2021",
     "name": "Blaze Dingo",
+    "surname": "",
     "rarity": 4,
     "classType": "soul-weaver",
     "element": "light",
@@ -127,11 +128,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -144,11 +145,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "archers-vision",
@@ -238,11 +239,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -255,11 +256,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "archers-vision",
@@ -349,11 +350,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -366,11 +367,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "archers-vision",

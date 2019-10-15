@@ -1,6 +1,7 @@
 {
     "gameId": "c3055",
     "name": "Hurado",
+    "surname": "",
     "rarity": 3,
     "classType": "mage",
     "element": "dark",
@@ -101,11 +102,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -114,11 +115,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 3000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -127,11 +128,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 10000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 320
                         },
                         {
                             "item": "strange-jelly",
@@ -147,8 +148,8 @@
                             "qty": 18000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 530
                         },
                         {
                             "item": "strange-jelly",
@@ -161,11 +162,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 850
                         },
                         {
                             "item": "strange-jelly",
@@ -178,11 +179,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 42000
+                            "qty": 48000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1340
                         },
                         {
                             "item": "strange-jelly",
@@ -209,9 +210,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.9 * 1.871",
+                "value": "((1 * hero_atk)) * 0.9 * 1.871",
                 "simplified": "((1.6839 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 0.9 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 0.9 * 1.871",
                 "simplifiedSoulburn": "((1.6839 * hero_atk))"
             }
         },
@@ -231,11 +232,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 14000
+                            "qty": 13000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 200
                         },
                         {
                             "item": "strange-jelly",
@@ -248,11 +249,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 21000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 450
                         },
                         {
                             "item": "strange-jelly",
@@ -265,11 +266,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 850
                         },
                         {
                             "item": "strange-jelly",
@@ -316,11 +317,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -329,11 +330,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 3000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -342,11 +343,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 10000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 320
                         },
                         {
                             "item": "strange-jelly",
@@ -362,8 +363,8 @@
                             "qty": 18000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 530
                         },
                         {
                             "item": "strange-jelly",
@@ -376,11 +377,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 850
                         },
                         {
                             "item": "strange-jelly",
@@ -393,11 +394,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 42000
+                            "qty": 48000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1340
                         },
                         {
                             "item": "strange-jelly",
@@ -422,9 +423,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.9 * hero_atk)) * 1.0 * 1.871",
+                "value": "((0.9 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.6839 * hero_atk))",
-                "soulburn": "((0.9 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((0.9 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.6839 * hero_atk))"
             }
         }

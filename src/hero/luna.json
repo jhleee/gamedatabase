@@ -1,6 +1,7 @@
 {
     "gameId": "c1066",
     "name": "Luna",
+    "surname": "Bianca",
     "rarity": 5,
     "classType": "warrior",
     "element": "ice",
@@ -118,11 +119,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -131,11 +132,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "mysterious-flash",
@@ -165,11 +166,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "reingar-student-id",
@@ -240,11 +241,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -253,11 +254,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "mysterious-flash",
@@ -287,11 +288,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "reingar-student-id",
@@ -351,11 +352,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -364,11 +365,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "mysterious-flash",
@@ -398,11 +399,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "reingar-student-id",

@@ -1,6 +1,7 @@
 {
     "gameId": "c1047",
     "name": "Ken",
+    "surname": "",
     "rarity": 5,
     "classType": "warrior",
     "element": "fire",
@@ -110,11 +111,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -123,11 +124,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "slime-jelly",
@@ -140,11 +141,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "slime-jelly",
@@ -211,9 +212,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((1.0 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk) + (0.1 * hero_hp)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk) + (0.1871 * hero_hp))",
-                "soulburn": "((1.0 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk) + (0.1 * hero_hp)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk) + (0.1871 * hero_hp))"
             }
         },
@@ -250,11 +251,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "slime-jelly",
@@ -267,11 +268,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 114000
+                            "qty": 110000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 6
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "dragons-wrath",
@@ -306,9 +307,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((1.2 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "value": "((1.2 * hero_atk) + (0.1 * hero_hp)) * 1 * 1.871",
                 "simplified": "((2.2452 * hero_atk) + (0.1871 * hero_hp))",
-                "soulburn": "((1.2 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "soulburn": "((1.2 * hero_atk) + (0.1 * hero_hp)) * 1 * 1.871",
                 "simplifiedSoulburn": "((2.2452 * hero_atk) + (0.1871 * hero_hp))"
             }
         },
@@ -341,11 +342,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -354,11 +355,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "slime-jelly",
@@ -371,11 +372,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "slime-jelly",

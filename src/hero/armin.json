@@ -1,6 +1,7 @@
 {
     "gameId": "c1008",
     "name": "Armin",
+    "surname": "",
     "rarity": 4,
     "classType": "knight",
     "element": "earth",
@@ -148,11 +149,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "slime-jelly",
@@ -165,11 +166,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "slime-jelly",
@@ -282,11 +283,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "slime-jelly",
@@ -316,11 +317,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "slime-jelly",
@@ -393,11 +394,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "slime-jelly",
@@ -410,11 +411,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 42000
+                            "qty": 38000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "dragons-wrath",

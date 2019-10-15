@@ -1,6 +1,7 @@
 {
     "gameId": "c3072",
     "name": "Mistychain",
+    "surname": "",
     "rarity": 3,
     "classType": "mage",
     "element": "ice",
@@ -97,11 +98,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -113,8 +114,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -123,11 +124,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "twisted-fang",
@@ -140,11 +141,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "twisted-fang",
@@ -157,11 +158,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "twisted-fang",
@@ -186,9 +187,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
@@ -208,11 +209,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -224,8 +225,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -234,11 +235,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "twisted-fang",
@@ -251,11 +252,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "twisted-fang",
@@ -268,11 +269,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "twisted-fang",
@@ -322,11 +323,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -338,8 +339,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -348,11 +349,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "twisted-fang",
@@ -365,11 +366,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "twisted-fang",
@@ -382,11 +383,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "twisted-fang",
@@ -413,9 +414,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1.5 * hero_atk)) * 1 * 1.871",
                 "simplified": "((2.8065 * hero_atk))",
-                "soulburn": "((2.2 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((2.2 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((4.1162 * hero_atk))"
             }
         }

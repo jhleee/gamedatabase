@@ -1,6 +1,7 @@
 {
     "gameId": "c2029",
     "name": "Roaming Warrior Leo",
+    "surname": "",
     "rarity": 4,
     "classType": "ranger",
     "element": "dark",
@@ -127,11 +128,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "ring-of-glory",
@@ -144,11 +145,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "ring-of-glory",
@@ -200,9 +201,9 @@
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
                 "value": "(([1.0, 1.1] * hero_atk)) * 1 * 1.871",
-                "simplified": "(([1.871, 2.058] * hero_atk))",
-                "soulburn": "(([1.0, 1.1]1 * hero_atk)) * 1 * 1.871",
-                "simplifiedSoulburn": "(([1.871, 2.058] * hero_atk))"
+                "simplified": "(([1.871, 2.0581] * hero_atk))",
+                "soulburn": "(([1.0, 1.1] * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "(([1.871, 2.0581] * hero_atk))"
             }
         },
         {
@@ -247,11 +248,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "ring-of-glory",
@@ -264,11 +265,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "ring-of-glory",
@@ -311,9 +312,9 @@
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
                 "value": "((1.2 * hero_atk)) * 1 * 1.871",
-                "simplified": "((2.245 * hero_atk))",
+                "simplified": "((2.2452 * hero_atk))",
                 "soulburn": "((1.2 * hero_atk)) * 1 * 1.871",
-                "simplifiedSoulburn": "((2.245 * hero_atk))"
+                "simplifiedSoulburn": "((2.2452 * hero_atk))"
             }
         },
         {
@@ -358,11 +359,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "ring-of-glory",
@@ -375,11 +376,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "ring-of-glory",
@@ -424,9 +425,9 @@
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
                 "value": "((0.8 * hero_atk)) * 1.1 * 1.871",
-                "simplified": "((1.647 * hero_atk))",
+                "simplified": "((1.6465 * hero_atk))",
                 "soulburn": "((0.8 * hero_atk)) * 1.1 * 1.871",
-                "simplifiedSoulburn": "((1.647 * hero_atk))"
+                "simplifiedSoulburn": "((1.6465 * hero_atk))"
             }
         }
     ],

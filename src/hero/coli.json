@@ -1,6 +1,7 @@
 {
     "gameId": "c1033",
     "name": "Coli",
+    "surname": "Nicolette Flurr",
     "rarity": 4,
     "classType": "thief",
     "element": "ice",
@@ -135,11 +136,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",
@@ -152,11 +153,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -251,11 +252,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",
@@ -268,11 +269,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -370,11 +371,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",
@@ -387,11 +388,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",

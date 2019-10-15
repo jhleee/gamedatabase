@@ -1,6 +1,7 @@
 {
     "gameId": "c1087",
     "name": "Furious",
+    "surname": "Klaut",
     "rarity": 4,
     "classType": "ranger",
     "element": "ice",
@@ -144,11 +145,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -161,11 +162,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "twisted-fang",
@@ -215,21 +216,23 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1,
                     "soulburn": 1
                 },
                 {
-                    "name": "statModifier",
+                    "name": "atk_rate",
                     "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
                     "value": 1,
                     "soulburn": 1
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -247,11 +250,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 52000
+                            "qty": 44000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -267,21 +270,23 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0,
                     "soulburn": 0
                 },
                 {
-                    "name": "statModifier",
+                    "name": "atk_rate",
                     "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
                     "value": 0,
                     "soulburn": 0
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -338,11 +343,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -355,11 +360,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "twisted-fang",
@@ -409,21 +414,23 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1,
                     "soulburn": 1
                 },
                 {
-                    "name": "statModifier",
+                    "name": "atk_rate",
                     "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
                     "value": 1.65,
                     "soulburn": 1.95
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.65 * hero_atk)) * 1 * 1.871",
+                "simplified": "((3.0871 * hero_atk))",
+                "soulburn": "((1.95 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((3.6484 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {

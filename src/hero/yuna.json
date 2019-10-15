@@ -1,6 +1,7 @@
 {
     "gameId": "c1030",
     "name": "Yuna",
+    "surname": "Woo",
     "rarity": 5,
     "classType": "ranger",
     "element": "ice",
@@ -130,11 +131,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -143,11 +144,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -160,11 +161,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "twisted-fang",
@@ -226,26 +227,30 @@
                     "soulburn": 0.00075
                 },
                 {
-                    "name": "skill_dmg_rate",
+                    "name": "targets_rate",
                     "description": "Increased damage based number of targets.",
                     "value": [
+                        0,
                         1.6,
                         1.4,
+                        0,
                         0
                     ],
                     "soulburn": [
+                        0,
                         1.6,
                         1.4,
+                        0,
                         0
                     ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + (skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
-                "simplified": "((0.8981 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count)))",
-                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + targets_rate)) * pow! * constant",
+                "value": "((0.6 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
+                "simplified": "((0.8981 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0])))",
+                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0])))"
             }
         },
         {
@@ -264,11 +269,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -281,11 +286,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 6
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "blazing-soul",
@@ -361,11 +366,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -374,11 +379,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -468,10 +473,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
-                "simplified": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))",
-                "soulburn": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))"
+                "value": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count))) * 0.8 * 1.871",
+                "simplified": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count)))",
+                "soulburn": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count)))"
             }
         }
     ],

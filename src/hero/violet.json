@@ -1,6 +1,7 @@
 {
     "gameId": "c1074",
     "name": "Violet",
+    "surname": "Harrison",
     "rarity": 5,
     "classType": "thief",
     "element": "earth",
@@ -131,11 +132,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -144,11 +145,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",
@@ -226,9 +227,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.9 * 1.871",
+                "value": "((1 * hero_atk)) * 0.9 * 1.871",
                 "simplified": "((1.6839 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 0.9 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 0.9 * 1.871",
                 "simplifiedSoulburn": "((1.6839 * hero_atk))"
             }
         },
@@ -248,11 +249,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 52000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "sharp-spearhead",
@@ -325,11 +326,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -338,11 +339,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",

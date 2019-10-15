@@ -1,6 +1,7 @@
 {
     "gameId": "c1016",
     "name": "Yufine",
+    "surname": "",
     "rarity": 5,
     "classType": "warrior",
     "element": "earth",
@@ -118,11 +119,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -131,11 +132,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -148,11 +149,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "shiny-enchantment",
@@ -213,9 +214,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
@@ -252,11 +253,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "shiny-enchantment",
@@ -269,11 +270,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 114000
+                            "qty": 110000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 6
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "horn-of-desire",
@@ -303,10 +304,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.9 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.684 * hero_atk))",
-                "soulburn": "((0.9 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.684 * hero_atk))"
+                "value": "((0.9 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.6839 * hero_atk))",
+                "soulburn": "((0.9 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk))"
             }
         },
         {
@@ -338,11 +339,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -351,11 +352,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "shiny-enchantment",
@@ -368,11 +369,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "shiny-enchantment",
@@ -431,18 +432,24 @@
                     "soulburn": 2
                 },
                 {
-                    "name": "skill_dmg_rate",
+                    "name": "target_buff_rate",
                     "description": "If target is buffed, increases damage.",
-                    "value": 0.5,
-                    "soulburn": 0.5
+                    "value": [
+                        0,
+                        0.5
+                    ],
+                    "soulburn": [
+                        0,
+                        0.5
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((2.0 * hero_atk)) * (1 + ((0.5 * hero_special_count))) * 0.95 * 1.871",
-                "simplified": "((3.5549 * hero_atk)) * (1 + ((0.5 * hero_special_count)))",
-                "soulburn": "((2.0 * hero_atk)) * (1 + ((0.5 * hero_special_count))) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((3.5549 * hero_atk)) * (1 + ((0.5 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + (target_buff_rate)) * pow! * constant",
+                "value": "((2 * hero_atk)) * (1 + (([0, 0.5]))) * 0.95 * 1.871",
+                "simplified": "((3.5549 * hero_atk)) * (1 + (([0, 0.5])))",
+                "soulburn": "((2 * hero_atk)) * (1 + (([0, 0.5]))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((3.5549 * hero_atk)) * (1 + (([0, 0.5])))"
             }
         }
     ],

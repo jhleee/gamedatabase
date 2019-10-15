@@ -1,6 +1,7 @@
 {
     "gameId": "c1038",
     "name": "Sez",
+    "surname": "Gaien",
     "rarity": 5,
     "classType": "thief",
     "element": "ice",
@@ -122,11 +123,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -135,11 +136,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",
@@ -169,11 +170,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "black-curse-powder",
@@ -205,9 +206,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((target_hp_missing_rate * target_hp_lost_percent))) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "value": "((1 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent))) * 0.95 * 1.871",
                 "simplified": "((1.7774 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent)))",
-                "soulburn": "((1.0 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "soulburn": "((1 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent))) * 0.95 * 1.871",
                 "simplifiedSoulburn": "((1.7774 * hero_atk)) * (1 + ((0.002 * target_hp_lost_percent)))"
             }
         },
@@ -239,11 +240,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -252,11 +253,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",
@@ -286,11 +287,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "black-curse-powder",
@@ -317,9 +318,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.5 * hero_atk)) * 1.0 * 1.871",
+                "value": "((0.5 * hero_atk)) * 1 * 1.871",
                 "simplified": "((0.9355 * hero_atk))",
-                "soulburn": "((0.5 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((0.5 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((0.9355 * hero_atk))"
             }
         },
@@ -351,11 +352,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -364,11 +365,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "sharp-spearhead",
@@ -398,11 +399,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "black-curse-powder",
@@ -434,7 +435,7 @@
                 "description": "((atk_rate * hero_atk)) * (1 + ((target_hp_missing_rate * target_hp_lost_percent))) * pow! * constant",
                 "value": "((1.8 * hero_atk)) * (1 + ((0.003 * target_hp_lost_percent))) * 0.95 * 1.871",
                 "simplified": "((3.1994 * hero_atk)) * (1 + ((0.003 * target_hp_lost_percent)))",
-                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.003 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.007 * target_hp_lost_percent))) * 0.95 * 1.871",
                 "simplifiedSoulburn": "((3.1994 * hero_atk)) * (1 + ((0.007 * target_hp_lost_percent)))"
             }
         }

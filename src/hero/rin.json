@@ -1,6 +1,7 @@
 {
     "gameId": "c1054",
     "name": "Rin",
+    "surname": "Gamod",
     "rarity": 4,
     "classType": "soul-weaver",
     "element": "earth",
@@ -127,11 +128,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "flame-of-soul",
@@ -161,11 +162,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "flame-of-soul",
@@ -260,11 +261,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "flame-of-soul",
@@ -294,11 +295,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "flame-of-soul",
@@ -347,9 +348,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 1.0 * 1.871",
+                "value": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 1 * 1.871",
                 "simplified": "((1.3097 * hero_atk) + (0.131 * hero_hp))",
-                "soulburn": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 1.0 * 1.871",
+                "soulburn": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.3097 * hero_atk) + (0.131 * hero_hp))"
             }
         },
@@ -386,11 +387,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "flame-of-soul",
@@ -403,11 +404,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 50000
+                            "qty": 42000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "demon-blood-gem",

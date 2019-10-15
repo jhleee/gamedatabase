@@ -1,6 +1,7 @@
 {
     "gameId": "c3084",
     "name": "Kikirat v2",
+    "surname": "",
     "rarity": 3,
     "classType": "knight",
     "element": "light",
@@ -93,11 +94,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -109,8 +110,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -119,11 +120,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "slime-jelly",
@@ -136,11 +137,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "slime-jelly",
@@ -153,11 +154,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "slime-jelly",
@@ -187,9 +188,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
-                "value": "((0.5 * hero_atk) + (0.7 * hero_def)) * 1.0 * 1.871",
+                "value": "((0.5 * hero_atk) + (0.7 * hero_def)) * 1 * 1.871",
                 "simplified": "((0.9355 * hero_atk) + (1.3097 * hero_def))",
-                "soulburn": "((0.5 * hero_atk) + (0.7 * hero_def)) * 1.0 * 1.871",
+                "soulburn": "((0.5 * hero_atk) + (0.7 * hero_def)) * 1 * 1.871",
                 "simplifiedSoulburn": "((0.9355 * hero_atk) + (1.3097 * hero_def))"
             }
         },
@@ -209,11 +210,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -225,8 +226,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -235,11 +236,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "slime-jelly",
@@ -252,11 +253,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "slime-jelly",
@@ -269,11 +270,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "slime-jelly",
@@ -320,11 +321,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -336,8 +337,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -346,11 +347,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 22000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 470
                         },
                         {
                             "item": "slime-jelly",
@@ -363,11 +364,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 30000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 740
                         },
                         {
                             "item": "slime-jelly",
@@ -380,11 +381,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 40000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "slime-jelly",
@@ -418,9 +419,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
-                "value": "((0.4 * hero_atk) + (0.5 * hero_def)) * 1.0 * 1.871",
+                "value": "((0.4 * hero_atk) + (0.5 * hero_def)) * 1 * 1.871",
                 "simplified": "((0.7484 * hero_atk) + (0.9355 * hero_def))",
-                "soulburn": "((0.5 * hero_atk) + (0.6 * hero_def)) * 1.0 * 1.871",
+                "soulburn": "((0.5 * hero_atk) + (0.6 * hero_def)) * 1 * 1.871",
                 "simplifiedSoulburn": "((0.9355 * hero_atk) + (1.1226 * hero_def))"
             }
         }

@@ -1,6 +1,7 @@
 {
     "gameId": "c1049",
     "name": "Chloe",
+    "surname": "",
     "rarity": 5,
     "classType": "warrior",
     "element": "ice",
@@ -118,11 +119,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -131,11 +132,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -165,11 +166,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "mercenarys-medicine",
@@ -192,18 +193,18 @@
                     "soulburn": 1
                 },
                 {
-                    "name": "skill_dmg_rate",
-                    "description": "If target is inflicted with Magic Nail.",
+                    "name": "target_buff_rate",
+                    "description": "If target is inflicted with Magic Nail. Max once.",
                     "value": 0.3,
                     "soulburn": 0.3
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 0.9 * 1.871",
-                "simplified": "((1.6839 * hero_atk)) * (1 + ((0.3 * hero_special_count)))",
-                "soulburn": "((1.0 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((1.6839 * hero_atk)) * (1 + ((0.3 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_buff_rate * target_buffs))) * pow! * constant",
+                "value": "((1 * hero_atk)) * (1 + ((0.3 * target_buffs))) * 0.9 * 1.871",
+                "simplified": "((1.6839 * hero_atk)) * (1 + ((0.3 * target_buffs)))",
+                "soulburn": "((1 * hero_atk)) * (1 + ((0.3 * target_buffs))) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk)) * (1 + ((0.3 * target_buffs)))"
             }
         },
         {
@@ -235,11 +236,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -248,11 +249,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -282,11 +283,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "mercenarys-medicine",
@@ -348,11 +349,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -361,11 +362,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -395,11 +396,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 5
                         },
                         {
                             "item": "mercenarys-medicine",
@@ -424,18 +425,18 @@
                     "soulburn": 3.5
                 },
                 {
-                    "name": "skill_dmg_rate",
-                    "description": "If target is inflicted with Magic Nail.",
+                    "name": "target_buff_rate",
+                    "description": "If target is inflicted with Magic Nail. Max once.",
                     "value": 0.35,
                     "soulburn": 0.35
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((2.0 * hero_atk)) * (1 + ((0.35 * hero_special_count))) * 0.8 * 1.871",
-                "simplified": "((2.9936 * hero_atk)) * (1 + ((0.35 * hero_special_count)))",
-                "soulburn": "((3.5 * hero_atk)) * (1 + ((0.35 * hero_special_count))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((5.2388 * hero_atk)) * (1 + ((0.35 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_buff_rate * target_buffs))) * pow! * constant",
+                "value": "((2 * hero_atk)) * (1 + ((0.35 * target_buffs))) * 0.8 * 1.871",
+                "simplified": "((2.9936 * hero_atk)) * (1 + ((0.35 * target_buffs)))",
+                "soulburn": "((3.5 * hero_atk)) * (1 + ((0.35 * target_buffs))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((5.2388 * hero_atk)) * (1 + ((0.35 * target_buffs)))"
             }
         }
     ],

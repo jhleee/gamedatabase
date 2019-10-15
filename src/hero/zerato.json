@@ -1,6 +1,7 @@
 {
     "gameId": "c1010",
     "name": "Zerato",
+    "surname": "",
     "rarity": 4,
     "classType": "mage",
     "element": "ice",
@@ -118,11 +119,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "path-power-loop",
@@ -135,11 +136,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "path-power-loop",
@@ -183,9 +184,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.05 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1.05 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.9646 * hero_atk))",
-                "soulburn": "((1.05 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1.05 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.9646 * hero_atk))"
             }
         },
@@ -218,11 +219,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "path-power-loop",
@@ -235,11 +236,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "path-power-loop",
@@ -279,18 +280,18 @@
                     "soulburn": 2
                 },
                 {
-                    "name": "skill_dmg_rate",
-                    "description": "Increased damage if target is debuffed.",
+                    "name": "target_debuff_rate",
+                    "description": "Increased damage if target is debuffed. Max once.",
                     "value": 0.3,
                     "soulburn": 0.3
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 0.95 * 1.871",
-                "simplified": "((2.6662 * hero_atk)) * (1 + ((0.3 * hero_special_count)))",
-                "soulburn": "((2.0 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((3.5549 * hero_atk)) * (1 + ((0.3 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_debuffs))) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * (1 + ((0.3 * target_debuffs))) * 0.95 * 1.871",
+                "simplified": "((2.6662 * hero_atk)) * (1 + ((0.3 * target_debuffs)))",
+                "soulburn": "((2 * hero_atk)) * (1 + ((0.3 * target_debuffs))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((3.5549 * hero_atk)) * (1 + ((0.3 * target_debuffs)))"
             }
         },
         {
@@ -348,11 +349,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "path-power-loop",
@@ -365,11 +366,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "path-power-loop",
@@ -430,9 +431,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         }

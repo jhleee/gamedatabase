@@ -1,6 +1,7 @@
 {
     "gameId": "c1024",
     "name": "Iseria",
+    "surname": "Arisphodel",
     "rarity": 5,
     "classType": "ranger",
     "element": "earth",
@@ -143,11 +144,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -156,11 +157,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -238,9 +239,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.95 * 1.871",
+                "value": "((1 * hero_atk)) * 0.95 * 1.871",
                 "simplified": "((1.7774 * hero_atk))",
-                "soulburn": "((2.0 * hero_atk)) * 0.95 * 1.871",
+                "soulburn": "((2 * hero_atk)) * 0.95 * 1.871",
                 "simplifiedSoulburn": "((3.5549 * hero_atk))"
             }
         },
@@ -260,11 +261,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -277,11 +278,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 84000
+                            "qty": 80000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 6
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "blazing-soul",
@@ -341,11 +342,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -354,11 +355,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "twisted-fang",
@@ -371,11 +372,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "twisted-fang",
@@ -437,9 +438,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((2.0 * hero_atk)) * 0.9 * 1.871",
+                "value": "((2 * hero_atk)) * 0.9 * 1.871",
                 "simplified": "((3.3678 * hero_atk))",
-                "soulburn": "((2.0 * hero_atk)) * 0.9 * 1.871",
+                "soulburn": "((2 * hero_atk)) * 0.9 * 1.871",
                 "simplifiedSoulburn": "((3.3678 * hero_atk))"
             }
         }

@@ -1,6 +1,7 @@
 {
     "gameId": "c1013",
     "name": "Cartuja",
+    "surname": "",
     "rarity": 4,
     "classType": "warrior",
     "element": "earth",
@@ -135,11 +136,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -169,11 +170,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -222,9 +223,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.5 * hero_atk) + (0.06 * hero_hp)) * 1.0 * 1.871",
+                "value": "((0.5 * hero_atk) + (0.06 * hero_hp)) * 1 * 1.871",
                 "simplified": "((0.9355 * hero_atk) + (0.1123 * hero_hp))",
-                "soulburn": "((0.5 * hero_atk) + (0.06 * hero_hp)) * 1.0 * 1.871",
+                "soulburn": "((0.5 * hero_atk) + (0.06 * hero_hp)) * 1 * 1.871",
                 "simplifiedSoulburn": "((0.9355 * hero_atk) + (0.1123 * hero_hp))"
             }
         },
@@ -261,11 +262,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -278,11 +279,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 50000
+                            "qty": 42000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "the-heart-of-hypocrisy",
@@ -355,11 +356,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -389,11 +390,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -458,9 +459,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "(([0.6, 1.0] * hero_atk) + ([0.05, 0.625] * hero_hp)) * 1.0 * 1.871",
+                "value": "(([0.6, 1] * hero_atk) + ([0.05, 0.625] * hero_hp)) * 1 * 1.871",
                 "simplified": "(([1.1226, 1.871] * hero_atk) + ([0.0936, 1.1694] * hero_hp))",
-                "soulburn": "(([0.8, 1.2] * hero_atk) + ([0.08, 0.1] * hero_hp)) * 1.0 * 1.871",
+                "soulburn": "(([0.8, 1.2] * hero_atk) + ([0.08, 0.1] * hero_hp)) * 1 * 1.871",
                 "simplifiedSoulburn": "(([1.4968, 2.2452] * hero_atk) + ([0.1497, 0.1871] * hero_hp))"
             }
         }

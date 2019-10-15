@@ -1,6 +1,7 @@
 {
     "gameId": "c4034",
     "name": "Captain Rikoris",
+    "surname": "Rialdo",
     "rarity": 3,
     "classType": "warrior",
     "element": "light",
@@ -105,11 +106,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -118,11 +119,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 3000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -131,11 +132,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 10000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 320
                         },
                         {
                             "item": "mysterious-flash",
@@ -151,8 +152,8 @@
                             "qty": 18000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 530
                         },
                         {
                             "item": "mysterious-flash",
@@ -165,11 +166,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 850
                         },
                         {
                             "item": "mysterious-flash",
@@ -182,11 +183,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 42000
+                            "qty": 48000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1340
                         },
                         {
                             "item": "mysterious-flash",
@@ -213,9 +214,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
@@ -238,8 +239,8 @@
                             "qty": 14000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 250
                         },
                         {
                             "item": "mysterious-flash",
@@ -252,11 +253,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 24000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 650
                         },
                         {
                             "item": "mysterious-flash",
@@ -305,11 +306,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 1000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 50
                         }
                     ]
                 },
@@ -318,11 +319,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -334,8 +335,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 230
                         }
                     ]
                 },
@@ -344,11 +345,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 21000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 400
                         },
                         {
                             "item": "mysterious-flash",
@@ -361,11 +362,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 29000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 650
                         },
                         {
                             "item": "mysterious-flash",
@@ -378,11 +379,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 39000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1000
                         },
                         {
                             "item": "mysterious-flash",
@@ -395,11 +396,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 42000
+                            "qty": 50000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1450
                         },
                         {
                             "item": "mysterious-flash",
@@ -426,9 +427,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.85 * hero_atk)) * 1.0 * 1.871",
+                "value": "((0.85 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.5903 * hero_atk))",
-                "soulburn": "((0.85 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((0.85 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.5903 * hero_atk))"
             }
         }

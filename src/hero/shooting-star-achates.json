@@ -1,6 +1,7 @@
 {
     "gameId": "c2017",
     "name": "Shooting Star Achates",
+    "surname": "",
     "rarity": 4,
     "classType": "soul-weaver",
     "element": "dark",
@@ -131,11 +132,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -165,11 +166,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -213,9 +214,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.95 * 1.871",
+                "value": "((1 * hero_atk)) * 0.95 * 1.871",
                 "simplified": "((1.7774 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 0.95 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 0.95 * 1.871",
                 "simplifiedSoulburn": "((1.7774 * hero_atk))"
             }
         },
@@ -235,11 +236,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -252,11 +253,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 42000
+                            "qty": 38000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "the-heart-of-hypocrisy",
@@ -344,11 +345,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 13000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -361,11 +362,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",

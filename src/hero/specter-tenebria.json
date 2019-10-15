@@ -1,6 +1,7 @@
 {
     "gameId": "c2050",
     "name": "Specter Tenebria",
+    "surname": "",
     "rarity": 5,
     "classType": "mage",
     "element": "dark",
@@ -122,11 +123,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -135,11 +136,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "ring-of-glory",
@@ -152,11 +153,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "ring-of-glory",
@@ -217,9 +218,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
@@ -256,11 +257,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "ring-of-glory",
@@ -273,11 +274,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 114000
+                            "qty": 110000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 6
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "fused-nerve",
@@ -337,11 +338,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -350,11 +351,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "ring-of-glory",
@@ -367,11 +368,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "ring-of-glory",
@@ -430,18 +431,18 @@
                     "soulburn": 1.8
                 },
                 {
-                    "name": "skill_dmg_rate",
+                    "name": "target_debuff_rate",
                     "description": "Damage increased per target debuff.",
                     "value": 0.2,
                     "soulburn": 0.2
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.8 * hero_atk)) * (1 + ((0.2 * hero_special_count))) * 0.95 * 1.871",
-                "simplified": "((3.1994 * hero_atk)) * (1 + ((0.2 * hero_special_count)))",
-                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.2 * hero_special_count))) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((3.1994 * hero_atk)) * (1 + ((0.2 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_debuffs))) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * (1 + ((0.2 * target_debuffs))) * 0.95 * 1.871",
+                "simplified": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_debuffs)))",
+                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.2 * target_debuffs))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_debuffs)))"
             }
         }
     ],
