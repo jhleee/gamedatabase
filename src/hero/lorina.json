@@ -1,5 +1,7 @@
 {
+    "gameId": "c3035",
     "name": "Lorina",
+    "surname": "Lilin",
     "rarity": 3,
     "classType": "warrior",
     "element": "dark",
@@ -10,7 +12,7 @@
     "relations": [
         {
             "hero": "maya",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "crozet",
@@ -18,61 +20,73 @@
         },
         {
             "hero": "dingo",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1102,
             "atk": 74,
             "hp": 237,
             "spd": 101,
             "def": 60,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 15047,
+        "lv50FiveStarNoAwaken": {
+            "cp": 10445,
+            "atk": 677,
+            "hp": 3559,
+            "spd": 101,
+            "def": 438,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11978,
+            "atk": 878,
+            "hp": 3899,
+            "spd": 101,
+            "def": 438,
+            "chc": 0.23,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13027,
+            "atk": 843,
+            "hp": 4475,
+            "spd": 101,
+            "def": 543,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15164,
             "atk": 1144,
             "hp": 4895,
             "spd": 101,
             "def": 543,
-            "chc": 21,
-            "chd": 150,
+            "chc": 0.23,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4475,
-            "cp": 13027,
-            "spd": 101,
-            "atk": 843,
-            "def": 543,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3559,
-            "cp": 10445,
-            "spd": 101,
-            "atk": 677,
-            "def": 438,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,12 +105,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -104,46 +118,46 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
                         {
                             "item": "twisted-fang",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
                         {
                             "item": "twisted-fang",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -151,22 +165,43 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "twisted-fang",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 0.9 * 1.871",
+                "simplified": "((1.6839 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -183,12 +218,12 @@
                     "description": "+0.5% Attack",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -196,46 +231,46 @@
                     "description": "+0.5% Attack",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
                 {
                     "description": "+1% Attack",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
                         {
                             "item": "twisted-fang",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+1% Attack",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
                         {
                             "item": "twisted-fang",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -243,22 +278,41 @@
                     "description": "+2% Attack",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "twisted-fang",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -275,12 +329,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -288,12 +342,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -301,16 +355,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
                             "item": "twisted-fang",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -318,16 +372,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
                             "item": "twisted-fang",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -335,22 +389,46 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "twisted-fang",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.5,
+                    "soulburn": 1.5
+                },
+                {
+                    "name": "target_hp_missing_rate",
+                    "value": 0.005,
+                    "soulburn": 0.005
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_hp_missing_rate * target_hp_lost_percent))) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * (1 + ((0.005 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "simplified": "((2.6662 * hero_atk)) * (1 + ((0.005 * target_hp_lost_percent)))",
+                "soulburn": "((1.5 * hero_atk)) * (1 + ((0.005 * target_hp_lost_percent))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((2.6662 * hero_atk)) * (1 + ((0.005 * target_hp_lost_percent)))"
+            }
         }
     ],
     "specialtySkill": {
@@ -364,12 +442,43 @@
             "politics": 10
         }
     },
+    "camping": {
+        "options": [
+            "dream",
+            "heroic-cheer"
+        ],
+        "reactions": {
+            "advice": 7,
+            "belief": -2,
+            "bizarre-story": -1,
+            "comforting-cheer": 8,
+            "complain": -4,
+            "criticism": -1,
+            "cute-cheer": 5,
+            "dream": 6,
+            "food-story": 3,
+            "gossip": -2,
+            "happy-memory": 0,
+            "heroic-cheer": 4,
+            "heroic-tale": -1,
+            "horror-story": -3,
+            "interesting-story": 2,
+            "joyful-memory": 6,
+            "myth": 1,
+            "occult": -1,
+            "reality-check": -2,
+            "sad-memory": 8,
+            "self-indulgent": -5,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -430,10 +539,10 @@
                     "atk": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -451,10 +560,10 @@
                     "atk": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -469,10 +578,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -491,13 +600,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -515,10 +624,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -540,10 +649,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -557,5 +666,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Please, call me Lorina.",
+    "description": "She may look skilled, but she's useless! An Order of the Shield apprentice"
 }

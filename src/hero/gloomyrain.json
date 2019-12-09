@@ -1,5 +1,7 @@
 {
+    "gameId": "c3074",
     "name": "Gloomyrain",
+    "surname": "",
     "rarity": 3,
     "classType": "mage",
     "element": "light",
@@ -14,65 +16,77 @@
         },
         {
             "hero": "requiemroar",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "yufine",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
-        "base": {
-            "cp": 1166,
+        "lv1BaseStarNoAwaken": {
+            "cp": 1181,
             "atk": 78,
             "hp": 216,
-            "spd": 102,
+            "spd": 107,
             "def": 67,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 15590,
+        "lv50FiveStarNoAwaken": {
+            "cp": 10962,
+            "atk": 713,
+            "hp": 3238,
+            "spd": 107,
+            "def": 494,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12597,
+            "atk": 918,
+            "hp": 3578,
+            "spd": 107,
+            "def": 494,
+            "chc": 0.23,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13674,
+            "atk": 889,
+            "hp": 4071,
+            "spd": 107,
+            "def": 613,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15971,
             "atk": 1199,
             "hp": 4491,
-            "spd": 102,
+            "spd": 107,
             "def": 613,
-            "chc": 21,
-            "chd": 150,
+            "chc": 0.23,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4071,
-            "cp": 13500,
-            "spd": 102,
-            "atk": 889,
-            "def": 613,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3238,
-            "cp": 10822,
-            "spd": 102,
-            "atk": 713,
-            "def": 494,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,12 +105,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -104,12 +118,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 3000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -117,16 +131,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 10000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 320
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
                         }
                     ]
                 },
@@ -134,16 +148,16 @@
                     "description": "+2% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 530
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
                         }
                     ]
                 },
@@ -151,16 +165,16 @@
                     "description": "+3% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 850
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -168,22 +182,52 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 48000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1340
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_ex_turn"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "description": "Skill 2 increases attack, molagora increase even further.",
+                    "value": [
+                        1,
+                        1.25,
+                        1.4
+                    ],
+                    "soulburn": [
+                        1,
+                        1.25,
+                        1.4
+                    ]
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "(([1, 1.25, 1.4] * hero_atk)) * 0.95 * 1.871",
+                "simplified": "(([1.7774, 2.2218, 2.4884] * hero_atk))",
+                "soulburn": "(([1, 1.25, 1.4] * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "(([1.7774, 2.2218, 2.4884] * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -200,56 +244,75 @@
                     "description": "+5% Speed and damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 13000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 200
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 14000
                         }
                     ]
                 },
                 {
                     "description": "+5% Speed and damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 21000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 450
+                        },
                         {
                             "item": "baby-mouse-insignia",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+5% Speed and damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 850
+                        },
                         {
                             "item": "baby-mouse-insignia",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -266,12 +329,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -279,12 +342,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 3000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -292,16 +355,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 10000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 320
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
                         }
                     ]
                 },
@@ -309,16 +372,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 530
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
                         }
                     ]
                 },
@@ -326,16 +389,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 850
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -343,22 +406,52 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 48000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1340
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_trans"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "description": "Skill 2 increases attack, molagora increase even further.",
+                    "value": [
+                        0.7,
+                        0.95,
+                        1.1
+                    ],
+                    "soulburn": [
+                        0.95,
+                        1.2,
+                        1.35
+                    ]
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "(([0.7, 0.95, 1.1] * hero_atk)) * 1 * 1.871",
+                "simplified": "(([1.3097, 1.7774, 2.0581] * hero_atk))",
+                "soulburn": "(([0.95, 1.2, 1.35] * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "(([1.7774, 2.2452, 2.5259] * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -372,12 +465,43 @@
             "politics": 68
         }
     },
+    "camping": {
+        "options": [
+            "bizarre-story",
+            "dream"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": 4,
+            "bizarre-story": 3,
+            "comforting-cheer": 5,
+            "complain": -3,
+            "criticism": 5,
+            "cute-cheer": 1,
+            "dream": 4,
+            "food-story": -2,
+            "gossip": -5,
+            "happy-memory": 0,
+            "heroic-cheer": -1,
+            "heroic-tale": -3,
+            "horror-story": 5,
+            "interesting-story": 2,
+            "joyful-memory": 2,
+            "myth": -3,
+            "occult": 3,
+            "reality-check": 4,
+            "sad-memory": 5,
+            "self-indulgent": 1,
+            "unique-comment": 5
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "spd+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -499,7 +623,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -565,5 +689,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Uhh... Hello?",
+    "description": "A Banshee like lonely rain falling on a foggy city"
 }

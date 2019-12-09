@@ -1,7 +1,9 @@
 {
     "name": "Rosa Hargana",
     "rarity": 4,
-    "exclusive": ["ranger"],
+    "exclusive": [
+        "ranger"
+    ],
     "loreDescription": [
         "Gun mage Amber Rose was an expert in lightweight magic and sharpshooting. Her magic bullets never missed, even when aimed at her own lover."
     ],
@@ -18,5 +20,10 @@
             "atk": 234,
             "hp": 351
         }
-    }
+    },
+    "buffs": [
+        "efct_dual_att",
+        "stic_att_up_custom"
+    ],
+    "debuffs": []
 }

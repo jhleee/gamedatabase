@@ -1,5 +1,7 @@
 {
+    "gameId": "c2013",
     "name": "Assassin Cartuja",
+    "surname": "",
     "rarity": 4,
     "classType": "warrior",
     "element": "dark",
@@ -10,61 +12,73 @@
     "relations": [
         {
             "hero": "watcher-schuri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aramintha",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1253,
             "atk": 84,
             "hp": 294,
             "spd": 100,
             "def": 66,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 11276,
+            "atk": 713,
+            "hp": 4138,
+            "spd": 100,
+            "def": 452,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12819,
+            "atk": 854,
+            "hp": 4850,
+            "spd": 100,
+            "def": 479,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14079,
+            "atk": 889,
+            "hp": 5203,
+            "spd": 100,
+            "def": 561,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 16221,
             "atk": 1119,
             "hp": 6091,
             "spd": 100,
             "def": 594,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 5203,
-            "cp": 14079,
-            "spd": 100,
-            "atk": 889,
-            "def": 561,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4138,
-            "cp": 11276,
-            "spd": 100,
-            "atk": 713,
-            "def": 452,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -83,12 +97,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -96,12 +110,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -109,16 +123,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -126,16 +140,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "sharp-spearhead",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -143,16 +157,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
@@ -160,7 +174,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_blood"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -177,25 +210,59 @@
                     "description": "+1% Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
-                        },
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+1% Combat Readiness",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "sharp-spearhead",
+                            "qty": 3
                         }
                     ]
                 },
@@ -203,61 +270,49 @@
                     "description": "+1% Combat Readiness",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "sharp-spearhead",
-                            "qty": 3
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% Combat Readiness",
-                    "resources": [
                         {
                             "item": "black-curse-powder",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cr_up",
+                "stic_dodge_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
             "soulBurn": 20,
-            "selfSkillBarValue": "",
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "Ignores effect resistance.",
             "awakenUpgrade": true,
             "cooldown": 5,
@@ -269,12 +324,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -282,12 +337,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -295,16 +350,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -312,16 +367,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "sharp-spearhead",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -329,16 +384,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
@@ -347,7 +402,26 @@
             "debuffs": [
                 "stic_def_dn",
                 "stic_stun"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.5,
+                    "soulburn": 1.5
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((2.6662 * hero_atk))",
+                "soulburn": "((1.5 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((2.6662 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -361,12 +435,43 @@
             "politics": 88
         }
     },
+    "camping": {
+        "options": [
+            "reality-check",
+            "food-story"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": -1,
+            "bizarre-story": 0,
+            "comforting-cheer": 3,
+            "complain": 2,
+            "criticism": -5,
+            "cute-cheer": 6,
+            "dream": 5,
+            "food-story": 3,
+            "gossip": 2,
+            "happy-memory": 5,
+            "heroic-cheer": 5,
+            "heroic-tale": 0,
+            "horror-story": -1,
+            "interesting-story": 3,
+            "joyful-memory": 7,
+            "myth": 2,
+            "occult": 0,
+            "reality-check": -5,
+            "sad-memory": 6,
+            "self-indulgent": -1,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "def%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -414,7 +519,7 @@
             "rank": "sss",
             "status": {
                 "type": "def",
-                "increase": 0.84
+                "increase": 0.084
             }
         }
     ],
@@ -562,5 +667,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Meeting new people is one way to have fun.",
+    "description": "A judge presiding over a world full of thrills"
 }

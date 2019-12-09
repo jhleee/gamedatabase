@@ -1,7 +1,9 @@
 {
     "name": "Moonlight Dreamblade",
     "rarity": 4,
-    "exclusive": ["thief"],
+    "exclusive": [
+        "thief"
+    ],
     "loreDescription": [
         "\"Whether you take the path before you or not, it's all your choice to make,\" the White Shining Blade's voice whispered in my mind."
     ],
@@ -18,5 +20,10 @@
             "atk": 234,
             "hp": 351
         }
-    }
+    },
+    "buffs": [
+        "stic_dodge_up_custom",
+        "stic_att_up"
+    ],
+    "debuffs": []
 }

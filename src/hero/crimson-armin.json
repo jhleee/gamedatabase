@@ -1,5 +1,7 @@
 {
+    "gameId": "c2008",
     "name": "Crimson Armin",
+    "surname": "",
     "rarity": 4,
     "classType": "knight",
     "element": "light",
@@ -14,57 +16,69 @@
         },
         {
             "hero": "tywin",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1261,
             "atk": 63,
             "hp": 303,
             "spd": 97,
             "def": 76,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 16327,
+        "lv50FiveStarNoAwaken": {
+            "cp": 11254,
+            "atk": 538,
+            "hp": 4267,
+            "spd": 97,
+            "def": 520,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12975,
+            "atk": 658,
+            "hp": 4991,
+            "spd": 97,
+            "def": 535,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0.12,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14045,
+            "atk": 671,
+            "hp": 5364,
+            "spd": 97,
+            "def": 645,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 16569,
             "atk": 821,
             "hp": 6266,
             "spd": 97,
             "def": 703,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
-            "efr": 6,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 5364,
-            "cp": 14045,
-            "spd": 97,
-            "atk": 671,
-            "def": 645,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4267,
-            "cp": 11254,
-            "spd": 97,
-            "atk": 538,
-            "def": 520,
-            "efr": 0
+            "efr": 0.12,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -83,12 +97,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -96,12 +110,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -109,16 +123,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "mysterious-flash",
+                            "qty": 1
                         }
                     ]
                 },
@@ -126,16 +140,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 30000
+                            "item": "mysterious-flash",
+                            "qty": 2
                         }
                     ]
                 },
@@ -143,16 +157,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 28000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -160,16 +174,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "reingar-student-id",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "reingar-student-id",
+                            "qty": 2
                         }
                     ]
                 }
@@ -177,7 +191,31 @@
             "buffs": [],
             "debuffs": [
                 "stic_provoke"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.8,
+                    "soulburn": 0.8
+                },
+                {
+                    "name": "def_rate",
+                    "value": 0.6,
+                    "soulburn": 0.6
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
+                "value": "((0.8 * hero_atk) + (0.6 * hero_def)) * 1 * 1.871",
+                "simplified": "((1.4968 * hero_atk) + (1.1226 * hero_def))",
+                "soulburn": "((0.8 * hero_atk) + (0.6 * hero_def)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.4968 * hero_atk) + (1.1226 * hero_def))"
+            }
         },
         {
             "isPassive": true,
@@ -188,118 +226,139 @@
             "cooldown": 0,
             "name": "Security State",
             "soulAcquire": 0,
-            "description": "Decreases damage received by allies from a critical hit by 20%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+            "description": "Decreases damage received by allies from a critical hit by 10%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
             "enhancement": [
                 {
-                    "description": "+1% additional damage reduction",
+                    "description": "+0.5% additional damage reduction",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
                         {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% additional damage reduction",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
-                    "description": "+1% additional damage reduction",
+                    "description": "+0.5% additional damage reduction",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
-                    "description": "+1% additional damage reduction",
+                    "description": "+0.5% additional damage reduction",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+0.5% additional damage reduction",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
                             "qty": 1
                         },
                         {
+                            "item": "mysterious-flash",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% additional damage reduction",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% additional damage reduction",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "mysterious-flash",
+                            "qty": 5
                         }
                     ]
                 },
                 {
-                    "description": "+2% additional damage reduction",
+                    "description": "+1% additional damage reduction",
                     "resources": [
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
                         {
                             "item": "gold",
-                            "qty": 30000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% additional damage reduction",
-                    "resources": [
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 5
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
-                        {
-                            "item": "gold",
-                            "qty": 45000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% additional damage reduction",
-                    "resources": [
                         {
                             "item": "reingar-student-id",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_rcv_dmg_dn"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -310,22 +369,22 @@
             "cooldown": 6,
             "name": "Shield of Holy Spirit",
             "soulAcquire": 2,
-            "description": "Covers all allies with an aura of holy spirit, granting immunity for 3 turns and invincibility for 1 turn.",
+            "description": "Covers all allies with an aura of holy spirit, granting immunity for 2 turns and invincibility for 1 turn.",
             "enhancement": [
                 {
                     "description": "+2 Soul acquired",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 27000
+                            "item": "mysterious-flash",
+                            "qty": 3
                         }
                     ]
                 },
@@ -333,16 +392,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 38000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "reingar-student-id",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
@@ -351,7 +410,26 @@
                 "stic_invincible",
                 "stic_debuf_impossible"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -365,12 +443,43 @@
             "politics": 35
         }
     },
+    "camping": {
+        "options": [
+            "cute-cheer",
+            "happy-memory"
+        ],
+        "reactions": {
+            "advice": -1,
+            "belief": 3,
+            "bizarre-story": -1,
+            "comforting-cheer": 0,
+            "complain": -1,
+            "criticism": 1,
+            "cute-cheer": 4,
+            "dream": 5,
+            "food-story": 6,
+            "gossip": 1,
+            "happy-memory": 3,
+            "heroic-cheer": 5,
+            "heroic-tale": 4,
+            "horror-story": -5,
+            "interesting-story": 2,
+            "joyful-memory": 3,
+            "myth": 6,
+            "occult": 1,
+            "reality-check": -2,
+            "sad-memory": 1,
+            "self-indulgent": 4,
+            "unique-comment": 1
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "efr%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -496,7 +605,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "efr": 0.12
                 },
                 {
                     "atk": 30
@@ -566,5 +675,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Hi hi! Did you miss me?",
+    "description": "The bright and bubbly self-proclaimed Super Cute Guardian of the Red Flame"
 }

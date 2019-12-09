@@ -1,5 +1,7 @@
 {
+    "gameId": "c3033",
     "name": "Mucacha",
+    "surname": "",
     "rarity": 3,
     "classType": "warrior",
     "element": "earth",
@@ -14,65 +16,77 @@
         },
         {
             "hero": "corvus",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "purrgis",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1078,
             "atk": 69,
             "hp": 237,
             "spd": 110,
             "def": 57,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 14891,
-            "atk": 1000,
-            "hp": 4895,
-            "spd": 114,
-            "def": 518,
-            "chc": 24,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "cp": 12808,
-            "atk": 780,
-            "hp": 4475,
-            "spd": 110,
-            "def": 518,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max5": {
+        "lv50FiveStarNoAwaken": {
             "cp": 10268,
             "atk": 626,
             "hp": 3559,
             "spd": 110,
             "def": 418,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11710,
+            "atk": 802,
+            "hp": 3899,
+            "spd": 114,
+            "def": 418,
+            "chc": 0.19,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12808,
+            "atk": 780,
+            "hp": 4475,
+            "spd": 110,
+            "def": 518,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15062,
+            "atk": 1000,
+            "hp": 4895,
+            "spd": 114,
+            "def": 518,
+            "chc": 0.27,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,12 +105,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -104,12 +118,12 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -117,16 +131,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -134,16 +148,16 @@
                     "description": "+3% Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -151,22 +165,48 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.00075
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplified": "((1.6839 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
+            }
         },
         {
             "isPassive": true,
@@ -183,59 +223,59 @@
                     "description": "+0.1% Speed",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+0.2% Speed",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+0.2% Speed",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
                 {
                     "description": "+0.2% Speed",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+0.2% Speed",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -243,22 +283,41 @@
                     "description": "+0.3% Speed",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -275,12 +334,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -288,12 +347,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -301,16 +360,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -318,16 +377,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -335,16 +394,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
@@ -354,7 +413,31 @@
             ],
             "debuffs": [
                 "stic_def_dn"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.5,
+                    "soulburn": 1.5
+                },
+                {
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.00075
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplified": "((2.8065 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "((1.5 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplifiedSoulburn": "((2.8065 * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
+            }
         }
     ],
     "specialtySkill": {
@@ -368,12 +451,43 @@
             "politics": 40
         }
     },
+    "camping": {
+        "options": [
+            "belief",
+            "complain"
+        ],
+        "reactions": {
+            "advice": 2,
+            "belief": 0,
+            "bizarre-story": -1,
+            "comforting-cheer": 3,
+            "complain": 2,
+            "criticism": 2,
+            "cute-cheer": 2,
+            "dream": 1,
+            "food-story": 2,
+            "gossip": 0,
+            "happy-memory": 2,
+            "heroic-cheer": 5,
+            "heroic-tale": 3,
+            "horror-story": 3,
+            "interesting-story": 0,
+            "joyful-memory": 4,
+            "myth": 1,
+            "occult": -2,
+            "reality-check": 1,
+            "sad-memory": 3,
+            "self-indulgent": -4,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "spd+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -452,7 +566,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -541,7 +655,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -561,5 +675,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Right or wrong, I'll worry about that later!",
+    "description": "A reformed thief, descended from Angara"
 }

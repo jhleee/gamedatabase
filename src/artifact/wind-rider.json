@@ -1,7 +1,9 @@
 {
     "name": "Wind Rider",
     "rarity": 5,
-    "exclusive": ["thief"],
+    "exclusive": [
+        "thief"
+    ],
     "loreDescription": [
         "Famously known as the Phantom Wind, Rinak would sneak into the mansions of the rich with ghost-like stealth and vanish with their most expensive possessions."
     ],
@@ -18,5 +20,10 @@
             "atk": 273,
             "hp": 416
         }
-    }
+    },
+    "buffs": [
+        "stic_hide",
+        "stic_att_up"
+    ],
+    "debuffs": []
 }

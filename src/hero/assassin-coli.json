@@ -1,5 +1,7 @@
 {
+    "gameId": "c2033",
     "name": "Assassin Coli",
+    "surname": "",
     "rarity": 4,
     "classType": "thief",
     "element": "dark",
@@ -10,7 +12,7 @@
     "relations": [
         {
             "hero": "coli",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "assassin-cidd",
@@ -22,57 +24,69 @@
         },
         {
             "hero": "helga",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1135,
             "atk": 70,
             "hp": 276,
             "spd": 122,
             "def": 55,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 10363,
+            "atk": 596,
+            "hp": 3881,
+            "spd": 122,
+            "def": 378,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11777,
+            "atk": 787,
+            "hp": 4221,
+            "spd": 126,
+            "def": 378,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12944,
+            "atk": 744,
+            "hp": 4879,
+            "spd": 122,
+            "def": 469,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 14934,
             "atk": 1027,
             "hp": 5299,
             "spd": 126,
             "def": 469,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4879,
-            "cp": 12944,
-            "spd": 122,
-            "atk": 744,
-            "def": 469,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3881,
-            "cp": 10363,
-            "spd": 122,
-            "atk": 596,
-            "def": 378,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -85,18 +99,18 @@
             "cooldown": 0,
             "name": "Ambush",
             "soulAcquire": 1,
-            "description": "Ambushes the enemy, dealing additional damage if stealthed. Damage dealt also increases proportional to the caster's Speed.",
+            "description": "Ambushes the enemy, dealing additional damage if stealthed, and grants the caster increased Speed for 1 turn. Damage dealt also increases proportional to the caster's Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -104,16 +118,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 21000
+                            "item": "shiny-enchantment",
+                            "qty": 1
                         }
                     ]
                 },
@@ -121,16 +135,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "shiny-enchantment",
+                            "qty": 1
                         }
                     ]
                 },
@@ -138,22 +152,55 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "horn-of-desire",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "horn-of-desire",
+                            "qty": 2
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_speed_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "description": "Increased attack if stealthed",
+                    "value": [
+                        0.9,
+                        1.2
+                    ],
+                    "soulburn": [
+                        0.9,
+                        1.2
+                    ]
+                },
+                {
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.00075
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplified": "(([1.6839, 2.2452] * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplifiedSoulburn": "(([1.6839, 2.2452] * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
+            }
         },
         {
             "isPassive": true,
@@ -170,29 +217,12 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% trigger chance",
-                    "resources": [
-                        {
-                            "item": "shiny-enchantment",
-                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 21000
+                            "qty": 1
                         }
                     ]
                 },
@@ -200,16 +230,16 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "shiny-enchantment",
+                            "qty": 1
                         }
                     ]
                 },
@@ -217,16 +247,33 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "horn-of-desire",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% trigger chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "horn-of-desire",
+                            "qty": 2
                         }
                     ]
                 }
@@ -235,7 +282,26 @@
                 "stic_att_up",
                 "stic_hide"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -243,7 +309,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Murder",
             "soulAcquire": 3,
             "description": "Moves silently to attack the enemy, stunning for 1 turn. Silences all enemies when the target is defeated. Damage dealt increases proportional to the caster's Speed.",
@@ -252,12 +318,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
-                        },
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -265,25 +344,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
                             "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
+                            "qty": 1
                         }
                     ]
                 },
@@ -291,50 +357,50 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 37000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "shiny-enchantment",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
                             "item": "shiny-enchantment",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 },
@@ -342,16 +408,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "horn-of-desire",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "horn-of-desire",
+                            "qty": 2
                         }
                     ]
                 }
@@ -360,7 +426,31 @@
             "debuffs": [
                 "stic_stun",
                 "stic_silence"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.8,
+                    "soulburn": 0.8
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.5,
+                    "soulburn": 3
+                },
+                {
+                    "name": "spd_rate",
+                    "value": 0.001125,
+                    "soulburn": 0.001125
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 0.8 * 1.871",
+                "simplified": "((2.2452 * hero_atk)) * (1 + ((0.001125 * hero_spd)))",
+                "soulburn": "((3 * hero_atk)) * (1 + ((0.001125 * hero_spd))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((4.4904 * hero_atk)) * (1 + ((0.001125 * hero_spd)))"
+            }
         }
     ],
     "specialtySkill": {
@@ -374,12 +464,43 @@
             "politics": 55
         }
     },
+    "camping": {
+        "options": [
+            "reality-check",
+            "gossip"
+        ],
+        "reactions": {
+            "advice": 4,
+            "belief": 4,
+            "bizarre-story": 3,
+            "comforting-cheer": 1,
+            "complain": -3,
+            "criticism": 2,
+            "cute-cheer": 2,
+            "dream": 4,
+            "food-story": 1,
+            "gossip": -2,
+            "happy-memory": 1,
+            "heroic-cheer": 3,
+            "heroic-tale": 0,
+            "horror-story": 3,
+            "interesting-story": 1,
+            "joyful-memory": 3,
+            "myth": 0,
+            "occult": 1,
+            "reality-check": -1,
+            "sad-memory": -2,
+            "self-indulgent": -1,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": false,
         "south": true,
         "east": true,
         "west": false
     },
+    "memoryImprintAttribute": "chc%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -575,5 +696,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I am the assassin Nicolette Fleure.",
+    "description": "An agile assassin hiding in the silence"
 }

@@ -1,5 +1,7 @@
 {
+    "gameId": "c1053",
     "name": "Basar",
+    "surname": "Jide Di Sa Barut",
     "rarity": 5,
     "classType": "mage",
     "element": "earth",
@@ -10,65 +12,77 @@
     "relations": [
         {
             "hero": "rin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "silk",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
-            "cp": 1526,
+        "lv1BaseStarNoAwaken": {
+            "cp": 1547,
             "atk": 107,
             "hp": 246,
-            "spd": 103,
+            "spd": 108,
             "def": 89,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 17380,
-            "atk": 1316,
-            "hp": 4777,
-            "spd": 103,
-            "def": 715,
-            "chc": 15,
-            "chd": 150,
-            "eff": 9,
-            "efr": 0,
-            "dac": 5
-        },
-        "max5": {
-            "cp": 12263,
+        "lv50FiveStarNoAwaken": {
+            "cp": 12431,
             "atk": 859,
             "hp": 3270,
-            "spd": 103,
+            "spd": 108,
             "def": 576,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max6": {
-            "cp": 15290,
+        "lv50FiveStarFullyAwakened": {
+            "cp": 14048,
+            "atk": 1056,
+            "hp": 3806,
+            "spd": 108,
+            "def": 576,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.06,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 15500,
             "atk": 1070,
             "hp": 4111,
-            "spd": 103,
+            "spd": 108,
             "def": 715,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 18032,
+            "atk": 1316,
+            "hp": 4777,
+            "spd": 108,
+            "def": 715,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
+            "efr": 0,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -81,18 +95,18 @@
             "cooldown": 0,
             "name": "Sand Wind",
             "soulAcquire": 1,
-            "description": "Attacks with wind magic, with a 50% chance to transfer one debuff from the caster to the enemy.",
+            "description": "Attacks with wind magic, with a 50% chance to transfer one debuff from the caster to the enemy before inflicting a random debuff for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -100,12 +114,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -113,16 +127,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
+                            "item": "leather-sheath",
+                            "qty": 5
                         }
                     ]
                 },
@@ -130,16 +144,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
                         }
                     ]
                 },
@@ -147,44 +161,70 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
                             "item": "fighter-medal",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_trans",
+                "efct_rnd_debuf",
+                "stic_att_dn",
+                "stic_def_dn",
+                "stic_silence",
+                "stic_heal_impossible"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
             "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+            "soulBurnEffect": "Ignores effect resistance.",
             "awakenUpgrade": false,
             "cooldown": 3,
             "name": "Hurricane",
             "soulAcquire": 2,
-            "description": "Attacks all enemies by releasing a hot sand hurricane, with 60% chance to decrease hit chance for 2 turns.",
+            "description": "Attacks all enemies by releasing a hot sand hurricane, with 60% chance each to decrease Hit Chance and Attack for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -192,12 +232,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -205,16 +245,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
+                            "item": "leather-sheath",
+                            "qty": 5
                         }
                     ]
                 },
@@ -222,16 +262,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
                         }
                     ]
                 },
@@ -239,24 +279,44 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
                             "item": "fighter-medal",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blind"
-            ]
+                "stic_blind",
+                "stic_att_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.6839 * hero_atk))",
+                "soulburn": "((0.9 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -264,21 +324,21 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Sandstorm",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with sand magic, dispelling all buffs, and making them unable to be buffed for 2 turns.",
+            "description": "Attacks all enemies with sand magic, dispelling all buffs, and making them unable to be buffed for 2 turns, before decreasing Combat Readiness by 30%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -286,12 +346,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -299,16 +359,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
+                            "item": "leather-sheath",
+                            "qty": 5
                         }
                     ]
                 },
@@ -316,16 +376,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
                         }
                     ]
                 },
@@ -333,24 +393,45 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
                             "item": "fighter-medal",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_buf_impossible"
-            ]
+                "stic_buf_impossible",
+                "efct_dispel",
+                "efct_cr_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * 0.9 * 1.871",
+                "simplified": "((1.5155 * hero_atk))",
+                "soulburn": "((0.9 * hero_atk)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.5155 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -364,12 +445,43 @@
             "politics": 93
         }
     },
+    "camping": {
+        "options": [
+            "heroic-tale",
+            "reality-check"
+        ],
+        "reactions": {
+            "advice": 4,
+            "belief": 3,
+            "bizarre-story": 0,
+            "comforting-cheer": 3,
+            "complain": 0,
+            "criticism": 3,
+            "cute-cheer": 4,
+            "dream": -1,
+            "food-story": 1,
+            "gossip": 3,
+            "happy-memory": 2,
+            "heroic-cheer": 5,
+            "heroic-tale": 2,
+            "horror-story": 5,
+            "interesting-story": 1,
+            "joyful-memory": 3,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 3,
+            "sad-memory": -2,
+            "self-indulgent": 1,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "eff%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -448,7 +560,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -545,7 +657,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -565,5 +677,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I wondered when you'd call.",
+    "description": "A genius holding sway over the economy of an entire continent"
 }

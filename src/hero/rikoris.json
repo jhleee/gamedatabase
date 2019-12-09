@@ -1,20 +1,22 @@
 {
+    "gameId": "c3034",
     "name": "Rikoris",
+    "surname": "Rialdo",
     "rarity": 3,
     "classType": "warrior",
     "element": "light",
     "zodiac": "libra",
-    "specialtyChangeName": "",
+    "specialtyChangeName": "captain-rikoris",
     "selfSkillBarName": "",
-    "background": "A founding member of the Martial Arts Club, Rikoris got caught up with Azalea and began helping out with the Public Security Club. He often lacks common sense, and is weak to the requests of others.",
+    "background": "A founding member of the Spear Club, Rikoris got caught up with Azalea and began helping out with the Public Security Club. He often lacks common sense, and is weak to the requests of others.",
     "relations": [
         {
             "hero": "wanda",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "azalea",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "yuna",
@@ -26,53 +28,65 @@
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1083,
             "atk": 65,
             "hp": 248,
             "spd": 104,
             "def": 60,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 10356,
+            "atk": 589,
+            "hp": 3720,
+            "spd": 104,
+            "def": 443,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11788,
+            "atk": 762,
+            "hp": 4171,
+            "spd": 104,
+            "def": 469,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12932,
+            "atk": 735,
+            "hp": 4677,
+            "spd": 104,
+            "def": 550,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 15002,
             "atk": 951,
             "hp": 5517,
             "spd": 104,
             "def": 583,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4677,
-            "cp": 12932,
-            "spd": 104,
-            "atk": 735,
-            "def": 550,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3720,
-            "cp": 10356,
-            "spd": 104,
-            "atk": 589,
-            "def": 443,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -85,18 +99,18 @@
             "cooldown": 0,
             "name": "Quick Pierce",
             "soulAcquire": 1,
-            "description": "Attacks with a spear, with 35% chance to decrease Defense for 2 turns.",
+            "description": "Attacks with a spear, with a 35% chance to decrease Defense for 2 turns. Effect chance increases by 25% when the caster is granted increased Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -104,12 +118,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 3000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -117,16 +131,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 10000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 320
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
                         }
                     ]
                 },
@@ -134,16 +148,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 530
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
                         }
                     ]
                 },
@@ -151,16 +165,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 850
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -168,16 +182,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 48000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1340
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
@@ -185,7 +199,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_def_dn"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -202,16 +235,16 @@
                     "description": "Acquire +1 Soul",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 14000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 250
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 18000
                         }
                     ]
                 },
@@ -219,24 +252,44 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 24000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 650
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_speed_up"
+                "stic_speed_up",
+                "efct_cd_dn"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -253,12 +306,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 1000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 50
                         }
                     ]
                 },
@@ -266,12 +319,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -279,12 +332,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "stigma",
+                            "qty": 230
                         }
                     ]
                 },
@@ -292,16 +345,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 21000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 400
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -309,33 +362,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 650
+                        },
+                        {
                             "item": "mysterious-flash",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 36000
                         }
                     ]
                 },
                 {
                     "description": "+10% effect chance",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 39000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1000
+                        },
                         {
                             "item": "mysterious-flash",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 },
@@ -343,22 +396,43 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 50000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1450
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 6
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_dispel"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.6,
+                    "soulburn": 0.6
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.6 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.1226 * hero_atk))",
+                "soulburn": "((0.6 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.1226 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -372,12 +446,43 @@
             "politics": 17
         }
     },
+    "camping": {
+        "options": [
+            "reality-check",
+            "complain"
+        ],
+        "reactions": {
+            "advice": 1,
+            "belief": 0,
+            "bizarre-story": 0,
+            "comforting-cheer": 3,
+            "complain": -1,
+            "criticism": -2,
+            "cute-cheer": 4,
+            "dream": 2,
+            "food-story": 4,
+            "gossip": 1,
+            "happy-memory": 2,
+            "heroic-cheer": 0,
+            "heroic-tale": 1,
+            "horror-story": -4,
+            "interesting-story": 2,
+            "joyful-memory": 3,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 0,
+            "sad-memory": 3,
+            "self-indulgent": -3,
+            "unique-comment": 2
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "def+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -438,10 +543,10 @@
                     "atk": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -459,10 +564,10 @@
                     "hp": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -477,10 +582,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -502,10 +607,10 @@
                     "def": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -523,10 +628,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -548,10 +653,10 @@
                     "hp": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -565,5 +670,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "The spear is my passion, my specialty, my life. Hmm, if there's anything you need, feel free to ask haha!",
+    "description": "A kind, weak-hearted member of the Spear Club"
 }

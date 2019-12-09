@@ -1,86 +1,96 @@
 {
+    "gameId": "c2022",
     "name": "Destina",
+    "surname": "",
     "rarity": 5,
     "classType": "soul-weaver",
     "element": "earth",
     "zodiac": "cancer",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Nicknamed \"the Beast of the Western Light\", Destina is a master of light and metal who has physically manifested in the image of her deeply beloved Soul Weaver, Ruele.",
+    "background": "Nicknamed \"the Beast of the Western Light,\" Destina is a master of light and metal who has physically manifested in the image of her deeply beloved Soul Weaver, Ruele.",
     "relations": [
         {
             "hero": "ruele-of-light",
             "relationType": "love"
         },
         {
-            "hero": "celestial",
-            "relationType": "trust"
-        },
-        {
             "hero": "dominiel",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "dingo",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judge-kise",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1304,
             "atk": 47,
             "hp": 285,
             "spd": 89,
             "def": 91,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 10663,
+            "atk": 378,
+            "hp": 3784,
+            "spd": 89,
+            "def": 590,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12225,
+            "atk": 498,
+            "hp": 4578,
+            "spd": 89,
+            "def": 625,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13301,
+            "atk": 471,
+            "hp": 4758,
+            "spd": 89,
+            "def": 732,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 15529,
             "atk": 621,
             "hp": 6034,
             "spd": 89,
             "def": 775,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4758,
-            "cp": 13301,
-            "spd": 89,
-            "atk": 471,
-            "def": 732,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3784,
-            "cp": 10663,
-            "spd": 89,
-            "atk": 378,
-            "def": 590,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -99,12 +109,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -112,12 +122,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -125,16 +135,16 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 22000
+                            "item": "baby-mouse-insignia",
+                            "qty": 2
                         }
                     ]
                 },
@@ -142,16 +152,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 40000
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
                         }
                     ]
                 },
@@ -159,16 +169,16 @@
                     "description": "+20% healing",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
                         }
                     ]
                 },
@@ -176,22 +186,41 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 120000
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -208,16 +237,16 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 19000
+                            "item": "baby-mouse-insignia",
+                            "qty": 3
                         }
                     ]
                 },
@@ -225,16 +254,16 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
                         }
                     ]
                 },
@@ -242,22 +271,43 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 130000
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": 3
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -274,12 +324,12 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -287,12 +337,12 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -300,16 +350,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 22000
+                            "item": "baby-mouse-insignia",
+                            "qty": 2
                         }
                     ]
                 },
@@ -317,16 +367,16 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 40000
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
                         }
                     ]
                 },
@@ -334,16 +384,16 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
                         }
                     ]
                 },
@@ -351,22 +401,44 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 120000
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": 2
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cleanse",
+                "efct_cr_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -380,12 +452,43 @@
             "politics": 19
         }
     },
+    "camping": {
+        "options": [
+            "sad-memory",
+            "heroic-cheer"
+        ],
+        "reactions": {
+            "advice": 0,
+            "belief": 2,
+            "bizarre-story": 1,
+            "comforting-cheer": -2,
+            "complain": 1,
+            "criticism": 0,
+            "cute-cheer": 3,
+            "dream": 2,
+            "food-story": 3,
+            "gossip": 1,
+            "happy-memory": 2,
+            "heroic-cheer": 3,
+            "heroic-tale": 3,
+            "horror-story": 1,
+            "interesting-story": 3,
+            "joyful-memory": 5,
+            "myth": 1,
+            "occult": 1,
+            "reality-check": 0,
+            "sad-memory": 1,
+            "self-indulgent": 1,
+            "unique-comment": 6
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": false,
         "east": true,
         "west": false
     },
+    "memoryImprintAttribute": "hp%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -446,10 +549,10 @@
                     "hp": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -467,10 +570,10 @@
                     "hp": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -489,10 +592,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -514,10 +617,10 @@
                     "def": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -539,10 +642,10 @@
                     "hp": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -564,10 +667,10 @@
                     "hp": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -581,5 +684,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I am the Spirit Lord Destina. But now... I am the Saint of Light.",
+    "description": "Beast of the Western Light, a Spirit Lord of Light and Autumn"
 }

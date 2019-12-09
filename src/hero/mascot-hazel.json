@@ -1,5 +1,7 @@
 {
+    "gameId": "c4041",
     "name": "Mascot Hazel",
+    "surname": "Stressa",
     "rarity": 3,
     "classType": "soul-weaver",
     "element": "fire",
@@ -14,69 +16,81 @@
         },
         {
             "hero": "carrot",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "adlay",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rikoris",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "zerato",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1020,
             "atk": 49,
             "hp": 194,
             "spd": 91,
             "def": 69,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 9291,
+            "atk": 451,
+            "hp": 2916,
+            "spd": 91,
+            "def": 503,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 10599,
+            "atk": 611,
+            "hp": 3343,
+            "spd": 91,
+            "def": 533,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 11585,
+            "atk": 562,
+            "hp": 3667,
+            "spd": 91,
+            "def": 624,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 13431,
             "atk": 762,
             "hp": 4417,
             "spd": 91,
             "def": 661,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3667,
-            "cp": 11585,
-            "spd": 91,
-            "atk": 562,
-            "def": 624,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 2916,
-            "cp": 9291,
-            "spd": 91,
-            "atk": 451,
-            "def": 503,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -95,12 +109,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 150
                         }
                     ]
                 },
@@ -108,16 +122,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 14000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 300
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 22000
                         }
                     ]
                 },
@@ -125,16 +139,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 550
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -142,16 +156,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 35000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 }
@@ -159,7 +173,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_heal_impossible"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.05,
+                    "soulburn": 1.05
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1.05 * 1.871",
+                "simplified": "((1.9646 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((1.9646 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -176,29 +209,29 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 150
                         }
                     ]
                 },
                 {
                     "description": "+10% healing",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 14000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 300
+                        },
                         {
                             "item": "leather-sheath",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 22000
                         }
                     ]
                 },
@@ -206,16 +239,16 @@
                     "description": "+10% healing",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 550
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -223,22 +256,41 @@
                     "description": "+15% healing",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 35000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -249,44 +301,44 @@
             "cooldown": 4,
             "name": "A Girl in Uniform",
             "soulAcquire": 2,
-            "description": "Encourages the target and all other allies, increasing Attack for 2 turns before healing them. If the initial target is a Fire elemental Hero, increases Attack (Greater) for 1 turn. This effect will only be applied to one ally. Health recovered increases proportional to the target's max Health and the caster's Attack.",
+            "description": "Encourages allies by increasing Attack of the target and all allies for 2 turns, and recovers Health of all allies. If the target is a Fire elemental Hero, grants the target increased Attack (Greater) instead. Amount recovered increases proportional to the target's max Health and the caster's Attack.",
             "enhancement": [
                 {
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 1000
                         },
+                        {
+                            "item": "stigma",
+                            "qty": 50
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "stigma",
+                            "qty": 230
                         }
                     ]
                 },
@@ -294,16 +346,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 21000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 400
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -311,33 +363,33 @@
                     "description": "+10% healing",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 650
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 36000
                         }
                     ]
                 },
                 {
                     "description": "+10% healing",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 39000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1000
+                        },
                         {
                             "item": "leather-sheath",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 },
@@ -345,24 +397,44 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 50000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1450
+                        },
+                        {
+                            "item": "leather-sheath",
+                            "qty": 6
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_att_up",
+                "stic_att_up2"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -376,12 +448,43 @@
             "politics": 88
         }
     },
+    "camping": {
+        "options": [
+            "reality-check",
+            "complain"
+        ],
+        "reactions": {
+            "advice": 3,
+            "belief": 0,
+            "bizarre-story": -3,
+            "comforting-cheer": 3,
+            "complain": 1,
+            "criticism": 8,
+            "cute-cheer": 5,
+            "dream": 0,
+            "food-story": 3,
+            "gossip": 2,
+            "happy-memory": 2,
+            "heroic-cheer": -3,
+            "heroic-tale": 5,
+            "horror-story": 1,
+            "interesting-story": -1,
+            "joyful-memory": 2,
+            "myth": 5,
+            "occult": 3,
+            "reality-check": -3,
+            "sad-memory": 0,
+            "self-indulgent": -5,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -569,5 +672,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "",
+    "description": "A pretty girl with stunning beauty"
 }

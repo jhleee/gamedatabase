@@ -1,5 +1,7 @@
 {
+    "gameId": "c3045",
     "name": "Otillie",
+    "surname": "",
     "rarity": 3,
     "classType": "mage",
     "element": "dark",
@@ -10,69 +12,81 @@
     "relations": [
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "armin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "Surin",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "pyllis",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1141,
             "atk": 65,
             "hp": 226,
             "spd": 106,
             "def": 68,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 15069,
+        "lv50FiveStarNoAwaken": {
+            "cp": 10583,
+            "atk": 589,
+            "hp": 3399,
+            "spd": 106,
+            "def": 497,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12250,
+            "atk": 709,
+            "hp": 3739,
+            "spd": 110,
+            "def": 497,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.06,
+            "efr": 0.18,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13209,
+            "atk": 735,
+            "hp": 4273,
+            "spd": 106,
+            "def": 617,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15718,
             "atk": 885,
             "hp": 4693,
             "spd": 110,
             "def": 617,
-            "chc": 15,
-            "chd": 150,
-            "eff": 9,
-            "efr": 9,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4273,
-            "cp": 13209,
-            "spd": 106,
-            "atk": 735,
-            "def": 617,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3399,
-            "cp": 10583,
-            "spd": 106,
-            "atk": 589,
-            "def": 497,
-            "efr": 0
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
+            "efr": 0.18,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,12 +105,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -104,12 +118,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -117,16 +131,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -134,16 +148,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -151,16 +165,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
@@ -168,7 +182,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_heal_impossible"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -178,18 +211,18 @@
             "cooldown": 0,
             "name": "Area Defense",
             "soulAcquire": 0,
-            "description": "Decreases damage received from AoE attacks for all allies by 15%. When this effect is granted more than once, only the strongest effect is applied.",
+            "description": "Decreases damage received from AoE attacks for all allies by 25%. When this effect is granted more than once, only the strongest effect is applied.",
             "enhancement": [
                 {
                     "description": "-0.5% damage received",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -197,46 +230,46 @@
                     "description": "-0.5% damage received",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
                 {
                     "description": "-1% damage received",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
                         {
                             "item": "shiny-enchantment",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "-1% damage received",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
                         {
                             "item": "shiny-enchantment",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -244,22 +277,43 @@
                     "description": "-2% damage received",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_rcv_dmg_dn"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -269,18 +323,18 @@
             "cooldown": 4,
             "name": "Mana Release",
             "soulAcquire": 2,
-            "description": "Exhales powerful dakrnesss, decreasing Combat Readiness by 25%, and making the enemy unable to be buffed for 2 turns.",
+            "description": "Exhales powerful darkness, decreasing Combat Readiness by 25%, making the enemy unable to be buffed, and inflicting Silence for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -288,12 +342,12 @@
                     "description": "+5% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -301,16 +355,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -318,16 +372,16 @@
                     "description": "+10% Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -335,24 +389,45 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "shiny-enchantment",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_buf_impossible"
-            ]
+                "stic_buf_impossible",
+                "stic_silence",
+                "efct_cr_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.8,
+                    "soulburn": 1.8
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * 1 * 1.871",
+                "simplified": "((3.3678 * hero_atk))",
+                "soulburn": "((1.8 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((3.3678 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -366,12 +441,43 @@
             "politics": 35
         }
     },
+    "camping": {
+        "options": [
+            "sad-memory",
+            "complain"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": -3,
+            "bizarre-story": -1,
+            "comforting-cheer": 1,
+            "complain": 1,
+            "criticism": -1,
+            "cute-cheer": 3,
+            "dream": 3,
+            "food-story": 0,
+            "gossip": 1,
+            "happy-memory": 3,
+            "heroic-cheer": 2,
+            "heroic-tale": -3,
+            "horror-story": -2,
+            "interesting-story": 2,
+            "joyful-memory": 4,
+            "myth": 1,
+            "occult": -1,
+            "reality-check": -1,
+            "sad-memory": 5,
+            "self-indulgent": -2,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "def+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -429,7 +535,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "efr": 0.06
                 },
                 {
                     "atk": 20
@@ -450,7 +556,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -514,7 +620,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "efr": 0.12
                 },
                 {
                     "atk": 30
@@ -539,7 +645,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -559,5 +665,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I'll help you as best I can.",
+    "description": "An escaped Homunculus and bold-faced liar"
 }

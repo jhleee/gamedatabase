@@ -1,5 +1,7 @@
 {
+    "gameId": "c1022",
     "name": "Ruele of Light",
+    "surname": "",
     "rarity": 5,
     "classType": "soul-weaver",
     "element": "light",
@@ -10,19 +12,19 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "nilgal",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "vildred",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judge-kise",
@@ -30,53 +32,65 @@
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1267,
             "atk": 47,
             "hp": 278,
             "spd": 98,
             "def": 86,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 10412,
+            "atk": 378,
+            "hp": 3688,
+            "spd": 98,
+            "def": 559,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12033,
+            "atk": 498,
+            "hp": 4359,
+            "spd": 98,
+            "def": 609,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12992,
+            "atk": 471,
+            "hp": 4637,
+            "spd": 98,
+            "def": 694,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 15402,
             "atk": 621,
             "hp": 5474,
             "spd": 98,
             "def": 798,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4637,
-            "cp": 12992,
-            "spd": 98,
-            "atk": 471,
-            "def": 694,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3688,
-            "cp": 10412,
-            "spd": 98,
-            "atk": 378,
-            "def": 559,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -95,12 +109,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -108,12 +122,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -121,16 +135,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "strange-jelly",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 22000
+                            "item": "strange-jelly",
+                            "qty": 2
                         }
                     ]
                 },
@@ -138,16 +152,16 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "strange-jelly",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 40000
+                            "item": "strange-jelly",
+                            "qty": 4
                         }
                     ]
                 },
@@ -155,16 +169,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "strange-jelly",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "strange-jelly",
+                            "qty": 5
                         }
                     ]
                 },
@@ -172,22 +186,46 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "ancient-creature-nucleus",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 120000
+                            "item": "ancient-creature-nucleus",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.81,
+                    "soulburn": 0.81
+                },
+                {
+                    "name": "hp_rate",
+                    "value": 0.07,
+                    "soulburn": 0.07
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
+                "value": "((0.81 * hero_atk) + (0.07 * hero_hp)) * 0.95 * 1.871",
+                "simplified": "((1.4397 * hero_atk) + (0.1244 * hero_hp))",
+                "soulburn": "((0.81 * hero_atk) + (0.07 * hero_hp)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.4397 * hero_atk) + (0.1244 * hero_hp))"
+            }
         },
         {
             "isPassive": false,
@@ -204,72 +242,72 @@
                     "description": "+5% healing",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
                             "item": "strange-jelly",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+5% healing",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
                         {
                             "item": "strange-jelly",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -277,16 +315,16 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "strange-jelly",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "strange-jelly",
+                            "qty": 7
                         }
                     ]
                 },
@@ -294,24 +332,44 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "ancient-creature-nucleus",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 150000
+                            "item": "ancient-creature-nucleus",
+                            "qty": 3
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_protect"
+                "stic_protect",
+                "efct_cleanse"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -328,16 +386,16 @@
                     "description": "Acquire +1 Soul",
                     "resources": [
                         {
-                            "item": "strange-jelly",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
+                            "item": "strange-jelly",
+                            "qty": 5
                         }
                     ]
                 },
@@ -345,16 +403,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "ancient-creature-nucleus",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "ancient-creature-nucleus",
+                            "qty": 2
                         }
                     ]
                 }
@@ -362,7 +420,26 @@
             "buffs": [
                 "stic_invincible"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -376,12 +453,43 @@
             "politics": 85
         }
     },
+    "camping": {
+        "options": [
+            "comforting-cheer",
+            "unique-comment"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": -1,
+            "bizarre-story": 0,
+            "comforting-cheer": 3,
+            "complain": 2,
+            "criticism": -5,
+            "cute-cheer": 6,
+            "dream": 5,
+            "food-story": 3,
+            "gossip": 2,
+            "happy-memory": 5,
+            "heroic-cheer": 5,
+            "heroic-tale": 0,
+            "horror-story": -1,
+            "interesting-story": 3,
+            "joyful-memory": 7,
+            "myth": 2,
+            "occult": 0,
+            "reality-check": -5,
+            "sad-memory": 6,
+            "self-indulgent": -1,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "def%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -577,5 +685,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Well, I'll do my best. I really will!",
+    "description": "A gentle saint shining with blessed light"
 }

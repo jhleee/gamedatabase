@@ -1,66 +1,80 @@
 {
+    "gameId": "c2003",
     "name": "Shadow Rose",
+    "surname": "Rosaria Dart",
     "rarity": 4,
     "classType": "knight",
     "element": "dark",
     "zodiac": "gemini",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Ready and willing to follow Cecilia anywhere, Rose became a war machine after having her heart completely shattered. She is fiercely persistent and obsessive.",
+    "background": "Rose was ready and willing to follow Cecilia anywhere, until she had her heart completely shattered. Now she is an obsessive and fiercely persistent war machine.",
     "relations": [
         {
             "hero": "cecilia",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1237,
             "atk": 66,
             "hp": 303,
             "spd": 101,
             "def": 71,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 15790,
+        "lv50FiveStarNoAwaken": {
+            "cp": 11160,
+            "atk": 560,
+            "hp": 4267,
+            "spd": 101,
+            "def": 491,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12456,
+            "atk": 713,
+            "hp": 4607,
+            "spd": 107,
+            "def": 491,
+            "chc": 0.19,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13937,
+            "atk": 698,
+            "hp": 5364,
+            "spd": 101,
+            "def": 610,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15933,
             "atk": 889,
             "hp": 5784,
             "spd": 107,
             "def": 610,
-            "chc": 24,
-            "chd": 150,
-            "eff": 9,
-            "efr": 9,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.27,
+            "chd": 1.5,
             "eff": 0,
-            "dac": 5,
-            "hp": 5364,
-            "cp": 13937,
-            "spd": 101,
-            "atk": 698,
-            "def": 610,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4267,
-            "cp": 11160,
-            "spd": 101,
-            "atk": 560,
-            "def": 491,
-            "efr": 0
+            "efr": 0,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -79,12 +93,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -92,12 +106,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -105,16 +119,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "ring-of-glory",
+                            "qty": 1
                         }
                     ]
                 },
@@ -122,16 +136,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "ring-of-glory",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -139,16 +153,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
@@ -157,12 +171,31 @@
             "debuffs": [
                 "stic_def_dn",
                 "stic_heal_impossible"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": "0",
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 3,
@@ -174,12 +207,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -187,12 +220,46 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "ring-of-glory",
+                            "qty": 3
                         }
                     ]
                 },
@@ -200,58 +267,44 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 3
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
                         {
                             "item": "fused-nerve",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_def_dn"
-            ]
+                "stic_def_dn",
+                "efct_dispel"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.5,
+                    "soulburn": 1.5
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * 0.9 * 1.871",
+                "simplified": "((2.5259 * hero_atk))",
+                "soulburn": "((1.5 * hero_atk)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((2.5259 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -268,12 +321,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -281,12 +334,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -294,16 +347,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "ring-of-glory",
+                            "qty": 1
                         }
                     ]
                 },
@@ -311,39 +364,62 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "ring-of-glory",
                             "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
                             "item": "fused-nerve",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [
+                "efct_cr_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.8,
+                    "soulburn": 0.8
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.8,
+                    "soulburn": 1.05
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * 0.8 * 1.871",
+                "simplified": "((1.1974 * hero_atk))",
+                "soulburn": "((1.05 * hero_atk)) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((1.5716 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -357,12 +433,43 @@
             "politics": 67
         }
     },
+    "camping": {
+        "options": [
+            "dream",
+            "advice"
+        ],
+        "reactions": {
+            "advice": 2,
+            "belief": 6,
+            "bizarre-story": 5,
+            "comforting-cheer": -1,
+            "complain": -2,
+            "criticism": 3,
+            "cute-cheer": 2,
+            "dream": 2,
+            "food-story": 0,
+            "gossip": 3,
+            "happy-memory": -1,
+            "heroic-cheer": 1,
+            "heroic-tale": 0,
+            "horror-story": 6,
+            "interesting-story": 0,
+            "joyful-memory": 2,
+            "myth": 0,
+            "occult": 1,
+            "reality-check": -3,
+            "sad-memory": -3,
+            "self-indulgent": -3,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": false,
         "west": false
     },
+    "memoryImprintAttribute": "dac%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -420,13 +527,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "2"
+                    "spd": 2
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -441,13 +548,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -466,10 +573,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -491,10 +598,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -513,13 +620,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "4"
+                    "spd": 4
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -538,13 +645,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -558,5 +665,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Roseria Dart has been called to arms.",
+    "description": "A protector walking the path of blood as a shadow of a precious thing"
 }

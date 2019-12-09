@@ -1,5 +1,7 @@
 {
+    "gameId": "m9191",
     "name": "Nilgal",
+    "surname": "",
     "rarity": 5,
     "classType": "warrior",
     "element": "earth",
@@ -14,53 +16,65 @@
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1577,
             "atk": 83,
             "hp": 530,
             "spd": 108,
             "def": 73,
-            "chc": 15.2,
-            "chd": 150,
+            "chc": 0.152,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 52223,
-            "atk": 4473,
-            "hp": 21568,
-            "spd": 108,
-            "def": 931,
-            "chc": 24,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 24,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 21568,
-            "cp": 52223,
-            "spd": 108,
-            "atk": 4473,
-            "def": 931,
-            "efr": 0
-        },
-        "max5": {
-            "chc": "22.5",
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 15440,
+        "lv50FiveStarNoAwaken": {
             "cp": 36951,
-            "spd": 108,
             "atk": 3094,
+            "hp": 15440,
+            "spd": 108,
             "def": 704,
-            "efr": 0
+            "chc": 0.225,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 36951,
+            "atk": 3094,
+            "hp": 15440,
+            "spd": 108,
+            "def": 704,
+            "chc": 0.225,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 52223,
+            "atk": 4473,
+            "hp": 21568,
+            "spd": 108,
+            "def": 931,
+            "chc": 0.24,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 52223,
+            "atk": 4473,
+            "hp": 21568,
+            "spd": 108,
+            "def": 931,
+            "chc": 0.24,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -77,11 +91,45 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 52000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_dot"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -96,11 +144,43 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 52000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -115,23 +195,61 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 52000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_debuf_extn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
         "name": "",
         "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "",
+        "enhancement": "",
         "stats": {
             "command": 0,
             "charm": 0,
             "politics": 0
         }
+    },
+    "camping": {
+        "options": [],
+        "reactions": {}
     },
     "memoryImprintFormation": {
         "north": false,
@@ -139,6 +257,7 @@
         "east": false,
         "west": false
     },
+    "memoryImprintAttribute": "",
     "memoryImprint": [
         {
             "rank": "d",
@@ -334,5 +453,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "",
+    "description": "A cruel and malicious Hand of the Archdemon"
 }

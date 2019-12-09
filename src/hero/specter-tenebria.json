@@ -1,5 +1,7 @@
 {
+    "gameId": "c2050",
     "name": "Specter Tenebria",
+    "surname": "",
     "rarity": 5,
     "classType": "mage",
     "element": "dark",
@@ -14,69 +16,81 @@
         },
         {
             "hero": "judge-kise",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "crozet",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "yuna",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1457,
             "atk": 96,
             "hp": 249,
             "spd": 106,
             "def": 85,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 16737,
-            "atk": 1197,
-            "hp": 4572,
-            "spd": 106,
-            "def": 683,
-            "chc": 15,
-            "chd": 150,
-            "eff": 15,
-            "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "cp": 14685,
-            "atk": 961,
-            "hp": 4152,
-            "spd": 106,
-            "def": 683,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max5": {
+        "lv50FiveStarNoAwaken": {
             "cp": 11781,
             "atk": 771,
             "hp": 3302,
             "spd": 106,
             "def": 551,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 13525,
+            "atk": 960,
+            "hp": 3642,
+            "spd": 106,
+            "def": 551,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14685,
+            "atk": 961,
+            "hp": 4152,
+            "spd": 106,
+            "def": 683,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 17342,
+            "atk": 1197,
+            "hp": 4572,
+            "spd": 106,
+            "def": 683,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.3,
+            "efr": 0,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -95,12 +109,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -108,12 +122,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -121,16 +135,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 22000
+                            "item": "ring-of-glory",
+                            "qty": 2
                         }
                     ]
                 },
@@ -138,16 +152,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 40000
+                            "item": "ring-of-glory",
+                            "qty": 4
                         }
                     ]
                 },
@@ -155,16 +169,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "ring-of-glory",
+                            "qty": 5
                         }
                     ]
                 },
@@ -172,16 +186,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 120000
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
@@ -189,7 +203,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_dot"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -200,62 +233,81 @@
             "cooldown": 0,
             "name": "Nightmare Illusion",
             "soulAcquire": 0,
-            "description": "When an enemy is debuffed, the range of Poison Blast extends to two enemies. Damage dealt by poisoned enemies is decreased by 20%. When this effect is granted more than once, only the strongest effect is applied.",
+            "description": "When an ally capable of being attacked is still remaining, the caster will not be attacked. Increases Attack and Defense of the caster by 7% every time somebody dies. Effect can only stack up to 5 times.",
             "enhancement": [
                 {
-                    "description": "-2% damage received",
+                    "description": "+0.5% all stats",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 19000
+                            "item": "ring-of-glory",
+                            "qty": 3
                         }
                     ]
                 },
                 {
-                    "description": "-3% damage received",
+                    "description": "+1% all stats",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "ring-of-glory",
+                            "qty": 5
                         }
                     ]
                 },
                 {
-                    "description": "-5% damage received",
+                    "description": "+1.5% all stats",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 130000
+                            "item": "fused-nerve",
+                            "qty": 3
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -266,18 +318,18 @@
             "cooldown": 5,
             "name": "Endless Nightmare",
             "soulAcquire": 2,
-            "description": "Attacks with a nightmare crystal, decreasing the Combat Readiness of all remaining enemies by 50% when an enemy dies. Damage dealt increases proportional to the number of debuffs inflicted on the enemy.",
+            "description": "Attacks with a nightmare crystal, stunning for 1 turn. Decreases the Combat Readiness of all remaining enemies by 50% when an enemy dies. Damage dealt increases proportional to the number of debuffs inflicted on the enemy.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -285,12 +337,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -298,16 +350,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 22000
+                            "item": "ring-of-glory",
+                            "qty": 2
                         }
                     ]
                 },
@@ -315,16 +367,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 40000
+                            "item": "ring-of-glory",
+                            "qty": 4
                         }
                     ]
                 },
@@ -332,16 +384,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "ring-of-glory",
+                            "qty": 5
                         }
                     ]
                 },
@@ -349,22 +401,50 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 120000
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_stun",
+                "efct_cr_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.8,
+                    "soulburn": 1.8
+                },
+                {
+                    "name": "target_debuff_rate",
+                    "description": "Damage increased per target debuff.",
+                    "value": 0.2,
+                    "soulburn": 0.2
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_debuffs))) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * (1 + ((0.2 * target_debuffs))) * 0.95 * 1.871",
+                "simplified": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_debuffs)))",
+                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.2 * target_debuffs))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_debuffs)))"
+            }
         }
     ],
     "specialtySkill": {
@@ -378,59 +458,90 @@
             "politics": 96
         }
     },
+    "camping": {
+        "options": [
+            "joyful-memory",
+            "belief"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": 6,
+            "bizarre-story": 10,
+            "comforting-cheer": 2,
+            "complain": -10,
+            "criticism": 3,
+            "cute-cheer": 1,
+            "dream": 4,
+            "food-story": -3,
+            "gossip": -3,
+            "happy-memory": -3,
+            "heroic-cheer": -2,
+            "heroic-tale": -3,
+            "horror-story": 8,
+            "interesting-story": 1,
+            "joyful-memory": 0,
+            "myth": -3,
+            "occult": 4,
+            "reality-check": -1,
+            "sad-memory": 1,
+            "self-indulgent": 0,
+            "unique-comment": 8
+        }
+    },
     "memoryImprintFormation": {
         "north": false,
         "south": false,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "hp%",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0.043
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0.064
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0.086
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0.107
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0.129
             }
         }
@@ -462,7 +573,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -509,7 +620,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -559,7 +670,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -579,5 +690,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Now I shall force you into an eternal nightmare. Ahaha.",
+    "description": "A poisonous nightmare seeped in cruelty"
 }

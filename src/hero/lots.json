@@ -1,5 +1,7 @@
 {
+    "gameId": "c1031",
     "name": "Lots",
+    "surname": "Greenwood",
     "rarity": 4,
     "classType": "soul-weaver",
     "element": "earth",
@@ -9,58 +11,86 @@
     "background": "Originally a part of the Order of the Blue Cross, Lots was dispatched to Reingar, where he studied healing magic. Wanting to test his abilities and find a rare magical item, he has left on a journey.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "clarissa",
+            "relationType": "rival"
+        },
+        {
+            "hero": "judith",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "angelica",
+            "relationType": "longing"
+        },
+        {
+            "hero": "achates",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "auxiliary-lots",
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1127,
             "atk": 42,
             "hp": 234,
             "spd": 97,
             "def": 78,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 13913,
+        "lv50FiveStarNoAwaken": {
+            "cp": 9723,
+            "atk": 364,
+            "hp": 3302,
+            "spd": 97,
+            "def": 534,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11200,
+            "atk": 484,
+            "hp": 3741,
+            "spd": 101,
+            "def": 534,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0.18,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12119,
+            "atk": 453,
+            "hp": 4152,
+            "spd": 97,
+            "def": 662,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 14219,
             "atk": 603,
             "hp": 4945,
             "spd": 101,
             "def": 662,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
-            "efr": 9,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4152,
-            "cp": 12119,
-            "spd": 97,
-            "atk": 453,
-            "def": 662,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3302,
-            "cp": 9723,
-            "spd": 97,
-            "atk": 364,
-            "def": 534,
-            "efr": 0
+            "efr": 0.18,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -79,12 +109,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -92,12 +122,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -105,16 +135,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "ring-of-glory",
+                            "qty": 1
                         }
                     ]
                 },
@@ -122,16 +152,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "ring-of-glory",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -139,16 +169,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
@@ -156,7 +186,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_att_dn"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -167,18 +216,18 @@
             "cooldown": 2,
             "name": "Regen",
             "soulAcquire": 1,
-            "description": "Recovers ally's Health with healing magic, and increases Combat Readiness by 80%. Amount recovered is proportional to the ally's max Health.",
+            "description": "Uses healing magic to recover Health and increase Combat Readiness by 80% of ally, before increasing caster's Combat Readiness by 30%. Amount recovered is proportional to the ally’s max Health.",
             "enhancement": [
                 {
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -186,12 +235,12 @@
                     "description": "+5% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -199,16 +248,16 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "ring-of-glory",
+                            "qty": 1
                         }
                     ]
                 },
@@ -216,16 +265,16 @@
                     "description": "+5% Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "ring-of-glory",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -233,22 +282,43 @@
                     "description": "+10% Combat Readiness",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -256,21 +326,21 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Extends buff duration by 2 turns.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Serenity",
-            "soulAcquire": 0,
-            "description": "Uses strengthening magic to increase the Combat Readiness of allies by 10% and grant continuous healing for 3 turns.",
+            "soulAcquire": 2,
+            "description": "Uses strengthening magic to recover Health, increase Combat Readiness by 10%, and grant continuous healing for 3 turns to all allies.",
             "enhancement": [
                 {
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -278,12 +348,12 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -291,16 +361,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "ring-of-glory",
+                            "qty": 1
                         }
                     ]
                 },
@@ -308,41 +378,61 @@
                     "description": "+3% Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "ring-of-glory",
                             "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+3% Combat Readiness",
-                    "resources": [
-                        {
                             "item": "fused-nerve",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_heal"
+                "stic_heal",
+                "efct_cr_up"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -351,9 +441,39 @@
         "dispatch": "[Time Limit] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 23,
+            "charm": 71,
+            "politics": 80
+        }
+    },
+    "camping": {
+        "options": [
+            "comforting-cheer",
+            "advice"
+        ],
+        "reactions": {
+            "advice": 3,
+            "belief": 2,
+            "bizarre-story": -3,
+            "comforting-cheer": 0,
+            "complain": -2,
+            "criticism": 0,
+            "cute-cheer": 4,
+            "dream": 5,
+            "food-story": 0,
+            "gossip": -2,
+            "happy-memory": 3,
+            "heroic-cheer": 2,
+            "heroic-tale": -2,
+            "horror-story": -2,
+            "interesting-story": 2,
+            "joyful-memory": 6,
+            "myth": 1,
+            "occult": 2,
+            "reality-check": -6,
+            "sad-memory": 8,
+            "self-indulgent": -1,
+            "unique-comment": 3
         }
     },
     "memoryImprintFormation": {
@@ -362,6 +482,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "dac%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -419,7 +540,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "efr": 0.06
                 },
                 {
                     "atk": 20
@@ -512,7 +633,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "efr": 0.12
                 },
                 {
                     "atk": 30
@@ -557,5 +678,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I'm Lots, I'll do whatever you need.",
+    "description": "A valiant healer searching for a rare magical item"
 }

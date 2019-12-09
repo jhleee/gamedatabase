@@ -1,13 +1,15 @@
 {
     "name": "Sira-Ren",
     "rarity": 4,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "This rare magical flower blooms from the corpse of a Human who possessed incredible magic power. It quickly withers away unless it is constantly being infused with powerful Mana. Few have been lucky enough to witness such a sight."
     ],
     "skillDescription": {
-        "base": "25.0% chance to inflict a random debuff for 1 turn when attacking.",
-        "max": "50.0% chance to inflict a random debuff for 1 turn when attacking."
+        "base": "25.0% chance to inflict a random debuff for 1 turn after attacking. (one from Decrease Attack, Decrease Hit Chance, Silence, Sleep, and Poison).",
+        "max": "50.0% chance to inflict a random debuff for 1 turn after attacking. (one from Decrease Attack, Decrease Hit Chance, Silence, Sleep, and Poison)."
     },
     "stats": {
         "base": {
@@ -18,5 +20,14 @@
             "atk": 156,
             "hp": 585
         }
-    }
+    },
+    "buffs": [],
+    "debuffs": [
+        "efct_rnd_debuf",
+        "stic_att_dn",
+        "stic_blind",
+        "stic_silence",
+        "stic_sleep",
+        "stic_dot"
+    ]
 }

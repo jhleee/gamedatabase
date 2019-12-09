@@ -1,5 +1,7 @@
 {
+    "gameId": "c2035",
     "name": "General Purrgis",
+    "surname": "",
     "rarity": 4,
     "classType": "warrior",
     "element": "light",
@@ -10,11 +12,11 @@
     "relations": [
         {
             "hero": "purrgis",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "mucacha",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
@@ -26,53 +28,65 @@
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1237,
             "atk": 71,
             "hp": 305,
             "spd": 103,
             "def": 68,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 11189,
+            "atk": 604,
+            "hp": 4299,
+            "spd": 103,
+            "def": 466,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12802,
+            "atk": 724,
+            "hp": 5283,
+            "spd": 103,
+            "def": 479,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13968,
+            "atk": 753,
+            "hp": 5405,
+            "spd": 103,
+            "def": 578,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 16316,
             "atk": 903,
             "hp": 6635,
             "spd": 103,
             "def": 630,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 5405,
-            "cp": 13968,
-            "spd": 103,
-            "atk": 753,
-            "def": 578,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4299,
-            "cp": 11189,
-            "spd": 103,
-            "atk": 604,
-            "def": 466,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,25 +105,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
-                        },
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -117,16 +131,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "baby-mouse-insignia",
+                            "qty": 1
                         }
                     ]
                 },
@@ -134,16 +148,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 30000
+                            "item": "baby-mouse-insignia",
+                            "qty": 2
                         }
                     ]
                 },
@@ -151,16 +165,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 28000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -168,16 +182,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": 2
                         }
                     ]
                 }
@@ -185,7 +199,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_provoke"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -202,33 +235,33 @@
                     "description": "+1% Combat Readiness",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 9000
+                            "item": "baby-mouse-insignia",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+2% Combat Readiness",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
                         {
                             "item": "baby-mouse-insignia",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -236,22 +269,43 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 42000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "the-heart-of-hypocrisy",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -268,12 +322,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -281,12 +335,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -294,16 +348,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "baby-mouse-insignia",
+                            "qty": 1
                         }
                     ]
                 },
@@ -311,16 +365,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 30000
+                            "item": "baby-mouse-insignia",
+                            "qty": 2
                         }
                     ]
                 },
@@ -328,16 +382,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 28000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "baby-mouse-insignia",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -345,16 +399,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": 2
                         }
                     ]
                 }
@@ -364,7 +418,26 @@
             ],
             "debuffs": [
                 "stic_stun"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.8,
+                    "soulburn": 0.8
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.4968 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.4968 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -378,60 +451,91 @@
             "politics": 60
         }
     },
+    "camping": {
+        "options": [
+            "heroic-tale",
+            "horror-story"
+        ],
+        "reactions": {
+            "advice": 7,
+            "belief": -6,
+            "bizarre-story": -2,
+            "comforting-cheer": 6,
+            "complain": 0,
+            "criticism": -4,
+            "cute-cheer": 4,
+            "dream": 4,
+            "food-story": 2,
+            "gossip": -2,
+            "happy-memory": 5,
+            "heroic-cheer": 7,
+            "heroic-tale": 0,
+            "horror-story": -2,
+            "interesting-story": 1,
+            "joyful-memory": 5,
+            "myth": 2,
+            "occult": 3,
+            "reality-check": -2,
+            "sad-memory": 8,
+            "self-indulgent": -4,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "dac%",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "hp",
+                "type": "dac",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "hp",
-                "increase": 0.024
+                "type": "dac",
+                "increase": 0.007
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
-                "increase": 0.036
+                "type": "dac",
+                "increase": 0.011
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
-                "increase": 0.048
+                "type": "dac",
+                "increase": 0.014
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
-                "increase": 0.06
+                "type": "dac",
+                "increase": 0.018
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
-                "increase": 0.072
+                "type": "dac",
+                "increase": 0.021
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
-                "increase": 0.084
+                "type": "dac",
+                "increase": 0.025
             }
         }
     ],
@@ -579,5 +683,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "It is a general's duty to lead his people along the right path.",
+    "description": "A cool-headed general commanding the respect of all"
 }

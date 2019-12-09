@@ -1,5 +1,7 @@
 {
+    "gameId": "c1067",
     "name": "Tamarinne",
+    "surname": "Somi Choi",
     "rarity": 5,
     "classType": "soul-weaver",
     "element": "fire",
@@ -10,7 +12,7 @@
     "relations": [
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "karin",
@@ -18,69 +20,81 @@
         },
         {
             "hero": "merlon",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "auxiliary-lots",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "katis",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "carrot",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1275,
             "atk": 68,
             "hp": 237,
             "spd": 102,
             "def": 81,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 14561,
-            "atk": 932,
-            "hp": 4370,
-            "spd": 108,
-            "def": 652,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max5": {
+        "lv50FiveStarNoAwaken": {
             "cp": 10313,
             "atk": 546,
             "hp": 3141,
             "spd": 102,
             "def": 525,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max6": {
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11530,
+            "atk": 715,
+            "hp": 3481,
+            "spd": 108,
+            "def": 525,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
             "cp": 12865,
             "atk": 680,
             "hp": 3950,
             "spd": 102,
             "def": 652,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 14561,
+            "atk": 932,
+            "hp": 4370,
+            "spd": 108,
+            "def": 652,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
         }
     },
     "skills": [
@@ -88,83 +102,83 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
+            "soulBurnEffect": "Greatly recovers Health of all allies after attacking.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Serene Tune",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Attacks an enemy with serene melody and heals the ally with the lowest Health. Amount recovered increases proportional to the ally's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) Attacks all enemies with a beautiful voice, dispelling all buffs. Triggers a Dual Attack from the ally with the highest Attack.",
+            "description": "(Tamarinne) Attacks an enemy with serene melody and heals the ally with the lowest Health. Amount recovered increases proportional to the ally's max Health. Decreases cooldown of Shining Star✰ by 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -172,16 +186,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -189,22 +203,43 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 150000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cd_dn"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.75,
+                    "soulburn": 0.75
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 0.75 * 1.871",
+                "simplified": "((1.4033 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 0.75 * 1.871",
+                "simplifiedSoulburn": "((1.4033 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -215,78 +250,78 @@
             "cooldown": 2,
             "name": "Song of the Forest",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%.",
+            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.",
             "enhancement": [
                 {
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% healing / Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% healing / Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% healing / Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% healing / Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% healing / Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+3% healing / Combat Readiness",
-                    "resources": [
-                        {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -294,16 +329,16 @@
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -311,22 +346,43 @@
                     "description": "+5% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 150000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_cd_dn"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -337,110 +393,133 @@
             "cooldown": 9,
             "name": "Shining Star✰",
             "soulAcquire": 2,
-            "description": "Before performing, dispels all debuffs inflicted on all allies and recovers the caster to max Health and grants an extra turn. The caster becomes an idol for 3 turns and performs a concert. Begins every battle with full cooldown count.",
+            "description": "Before performing, dispels all debuffs inflicted on all allies and recovers the caster to max Health and grants an extra turn. The caster becomes an idol for 3 turns and performs a concert. Begins the first battle with full cooldown count.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
-                            "qty": 8
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 52000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 8
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_showtime",
+                "efct_ex_turn",
+                "efct_cleanse"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
+            "soulBurnEffect": "Greatly recovers Health of all allies after attacking.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Sing Together",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Attacks an enemy with serene melody and heals the ally with the lowest Health. Amount recovered increases proportional to the ally's max Health. Decreases cooldown of Shining Star☆ by 1 turn.\n(Idol) Attacks all enemies with a beautiful voice, dispelling all buffs. Triggers a Dual Attack from the ally with the highest Attack.",
+            "description": "(Idol) Attacks all enemies with a beautiful voice, dispelling all buffs. Triggers a Dual Attack from the ally with the highest Attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -448,16 +527,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -465,22 +544,41 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 150000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.75,
+                    "soulburn": 0.75
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 0.75 * 1.871",
+                "simplified": "((1.4033 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 0.75 * 1.871",
+                "simplifiedSoulburn": "((1.4033 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -491,78 +589,78 @@
             "cooldown": 2,
             "name": "Climax",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%.",
+            "description": "(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%, recovering Health. Amount recovered increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% healing / Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% healing / Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% healing / Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% healing / Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% healing / Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+3% healing / Combat Readiness",
-                    "resources": [
-                        {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -570,16 +668,16 @@
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -587,16 +685,16 @@
                     "description": "+5% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 150000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
@@ -604,7 +702,26 @@
             "buffs": [
                 "stic_att_up"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -618,12 +735,43 @@
             "politics": 35
         }
     },
+    "camping": {
+        "options": [
+            "complain",
+            "cute-cheer"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": 4,
+            "bizarre-story": 2,
+            "comforting-cheer": 8,
+            "complain": -8,
+            "criticism": 1,
+            "cute-cheer": 5,
+            "dream": 4,
+            "food-story": 3,
+            "gossip": 0,
+            "happy-memory": -1,
+            "heroic-cheer": 5,
+            "heroic-tale": 3,
+            "horror-story": -2,
+            "interesting-story": 3,
+            "joyful-memory": 5,
+            "myth": 1,
+            "occult": 0,
+            "reality-check": -2,
+            "sad-memory": 3,
+            "self-indulgent": -6,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -819,5 +967,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Twinkle twinkle~ I'll be your star in the darkness!",
+    "description": "Appearing with a flash and the sound of singing!"
 }

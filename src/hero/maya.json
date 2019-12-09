@@ -1,5 +1,7 @@
 {
+    "gameId": "c1032",
     "name": "Maya",
+    "surname": "",
     "rarity": 4,
     "classType": "knight",
     "element": "fire",
@@ -14,65 +16,77 @@
         },
         {
             "hero": "lorina",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sven",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1315,
             "atk": 63,
             "hp": 330,
             "spd": 108,
             "def": 76,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 11900,
+            "atk": 538,
+            "hp": 4653,
+            "spd": 108,
+            "def": 523,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 13392,
+            "atk": 658,
+            "hp": 5411,
+            "spd": 112,
+            "def": 523,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.03,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14848,
+            "atk": 671,
+            "hp": 5850,
+            "spd": 108,
+            "def": 648,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 16961,
             "atk": 821,
             "hp": 6796,
             "spd": 112,
             "def": 648,
-            "chc": 15,
-            "chd": 150,
-            "eff": 9,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.09,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 5850,
-            "cp": 14848,
-            "spd": 108,
-            "atk": 671,
-            "def": 648,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4653,
-            "cp": 11900,
-            "spd": 108,
-            "atk": 538,
-            "def": 523,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,12 +105,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -104,12 +118,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -117,16 +131,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "path-power-loop",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "path-power-loop",
+                            "qty": 1
                         }
                     ]
                 },
@@ -134,16 +148,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "path-power-loop",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 30000
+                            "item": "path-power-loop",
+                            "qty": 2
                         }
                     ]
                 },
@@ -151,33 +165,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 28000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "path-power-loop",
                             "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 40000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
                             "item": "nightmare-mask",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
                         }
                     ]
                 }
@@ -185,7 +199,31 @@
             "buffs": [],
             "debuffs": [
                 "stic_stun"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.5,
+                    "soulburn": 0.5
+                },
+                {
+                    "name": "def_rate",
+                    "value": 0.75,
+                    "soulburn": 0.75
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
+                "value": "((0.5 * hero_atk) + (0.75 * hero_def)) * 0.95 * 1.871",
+                "simplified": "((0.8887 * hero_atk) + (1.3331 * hero_def))",
+                "soulburn": "((0.5 * hero_atk) + (0.75 * hero_def)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((0.8887 * hero_atk) + (1.3331 * hero_def))"
+            }
         },
         {
             "isPassive": false,
@@ -202,12 +240,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -215,12 +253,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -228,16 +266,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "path-power-loop",
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "path-power-loop",
+                            "qty": 1
                         }
                     ]
                 },
@@ -245,33 +283,33 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "path-power-loop",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 30000
+                            "item": "path-power-loop",
+                            "qty": 2
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 28000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
                         {
                             "item": "path-power-loop",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -279,16 +317,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "nightmare-mask",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "nightmare-mask",
+                            "qty": 2
                         }
                     ]
                 }
@@ -296,7 +334,31 @@
             "buffs": [],
             "debuffs": [
                 "stic_stun"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.8,
+                    "soulburn": 0.8
+                },
+                {
+                    "name": "def_rate",
+                    "value": 0.8,
+                    "soulburn": 0.8
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
+                "value": "((0.8 * hero_atk) + (0.8 * hero_def)) * 1 * 1.871",
+                "simplified": "((1.4968 * hero_atk) + (1.4968 * hero_def))",
+                "soulburn": "((0.8 * hero_atk) + (0.8 * hero_def)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.4968 * hero_atk) + (1.4968 * hero_def))"
+            }
         },
         {
             "isPassive": false,
@@ -313,16 +375,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "path-power-loop",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 9000
+                            "item": "path-power-loop",
+                            "qty": 1
                         }
                     ]
                 },
@@ -330,16 +392,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "path-power-loop",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 35000
+                            "item": "path-power-loop",
+                            "qty": 3
                         }
                     ]
                 },
@@ -347,16 +409,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 42000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "nightmare-mask",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
@@ -367,7 +429,26 @@
             "debuffs": [
                 "stic_att_dn",
                 "stic_provoke"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -381,12 +462,43 @@
             "politics": 17
         }
     },
+    "camping": {
+        "options": [
+            "joyful-memory",
+            "horror-story"
+        ],
+        "reactions": {
+            "advice": 4,
+            "belief": -1,
+            "bizarre-story": 1,
+            "comforting-cheer": 6,
+            "complain": -1,
+            "criticism": -1,
+            "cute-cheer": 4,
+            "dream": 3,
+            "food-story": 3,
+            "gossip": -1,
+            "happy-memory": 5,
+            "heroic-cheer": 8,
+            "heroic-tale": 6,
+            "horror-story": 3,
+            "interesting-story": 2,
+            "joyful-memory": 5,
+            "myth": 2,
+            "occult": -1,
+            "reality-check": 1,
+            "sad-memory": 1,
+            "self-indulgent": 0,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "def%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -447,10 +559,10 @@
                     "hp": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -465,13 +577,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -490,10 +602,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -512,13 +624,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "4"
+                    "spd": 4
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -540,10 +652,10 @@
                     "hp": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -562,13 +674,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -582,5 +694,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Oh, you were looking for me? Thank you!",
+    "description": "A young knight with a strong arm and shield"
 }

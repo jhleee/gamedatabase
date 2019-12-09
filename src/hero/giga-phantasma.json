@@ -1,37 +1,39 @@
 {
+    "gameId": "m8042",
     "name": "Giga-Phantasma",
+    "surname": "",
     "rarity": 3,
     "classType": "material",
     "element": "light",
     "zodiac": "taurus",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A magical creature that has collected immense power over the course of its eternal life. Hunted down by countless warriors and magicians desperate to posses its concentrated power, it is now extremely hard to find.",
+    "background": "A magical creature that has collected immense power over the course of its eternal life. Hunted down by countless warriors and magicians desperate to possess its concentrated power, it is now extremely hard to find.",
     "relations": [],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 5786,
             "atk": 310,
             "hp": 1960,
             "spd": 91,
             "def": 286,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv60SixStarFullyAwakened": {
             "cp": 8377,
             "atk": 448,
             "hp": 2888,
             "spd": 91,
             "def": 409,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         }
     },
     "skills": [
@@ -47,7 +49,26 @@
             "description": "Attacks with sharp teeth.",
             "enhancement": [],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": true,
@@ -60,17 +81,45 @@
             "soulAcquire": 0,
             "description": "The item will be at max level when you receive it, and earn a bonus 6% EXP in battle.",
             "enhancement": [],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_exp_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {},
+    "camping": {
+        "options": [],
+        "reactions": {}
+    },
     "memoryImprintFormation": {
         "north": false,
         "south": false,
         "east": false,
         "west": false
     },
+    "memoryImprintAttribute": "",
     "memoryImprint": [],
-    "awakening": []
+    "awakening": [],
+    "summonQuote": "",
+    "description": "Strong power compressed into a shadow of glory"
 }

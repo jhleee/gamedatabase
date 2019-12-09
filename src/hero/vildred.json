@@ -1,5 +1,7 @@
 {
+    "gameId": "c1007",
     "name": "Vildred",
+    "surname": "Dieren",
     "rarity": 5,
     "classType": "thief",
     "element": "earth",
@@ -10,7 +12,7 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "iseria",
@@ -18,65 +20,77 @@
         },
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ruele-of-light",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judge-kise",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1342,
             "atk": 96,
             "hp": 283,
             "spd": 116,
             "def": 65,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 16525,
+        "lv50FiveStarNoAwaken": {
+            "cp": 11324,
+            "atk": 771,
+            "hp": 3752,
+            "spd": 116,
+            "def": 421,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 13126,
+            "atk": 983,
+            "hp": 4092,
+            "spd": 116,
+            "def": 421,
+            "chc": 0.23,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14130,
+            "atk": 961,
+            "hp": 4718,
+            "spd": 116,
+            "def": 522,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 16674,
             "atk": 1283,
             "hp": 5138,
             "spd": 116,
             "def": 522,
-            "chc": 21,
-            "chd": 150,
+            "chc": 0.23,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4718,
-            "cp": 14130,
-            "spd": 116,
-            "atk": 961,
-            "def": 522,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3752,
-            "cp": 11324,
-            "spd": 116,
-            "atk": 771,
-            "def": 421,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -95,12 +109,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
-                        },
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -108,46 +135,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "twisted-fang",
-                            "qty": 5
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 37000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "twisted-fang",
-                            "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "twisted-fang",
+                            "qty": 5
                         }
                     ]
                 },
@@ -155,22 +152,63 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "blazing-soul",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
-                            "item": "molagorago",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
+                            "item": "twisted-fang",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "blazing-soul",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.85,
+                    "soulburn": 0.85
+                },
+                {
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.00075
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 0.95 * 1.871",
+                "simplified": "((1.5108 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.5108 * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
+            }
         },
         {
             "isPassive": true,
@@ -187,59 +225,59 @@
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt by additional skill",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt by additional skill",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt by additional skill",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt by additional skill",
-                    "resources": [
-                        {
                             "item": "twisted-fang",
                             "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt by additional skill",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt by additional skill",
-                    "resources": [
-                        {
                             "item": "twisted-fang",
                             "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
                         }
                     ]
                 },
@@ -247,24 +285,44 @@
                     "description": "+10% damage dealt by additional skill",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
                             "item": "blazing-soul",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_att_up",
+                "efct_cr_up"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.5,
+                    "soulburn": 0.5
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.5 * hero_atk)) * 1 * 1.871",
+                "simplified": "((0.9355 * hero_atk))",
+                "soulburn": "((0.5 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((0.9355 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -281,12 +339,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -294,12 +352,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -307,56 +365,80 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
                             "item": "twisted-fang",
                             "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
                             "item": "twisted-fang",
                             "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
                         {
                             "item": "blazing-soul",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.85,
+                    "soulburn": 1.1
+                },
+                {
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.0009
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplified": "((1.5903 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "((1.1 * hero_atk)) * (1 + ((0.0009 * hero_spd))) * 1 * 1.871",
+                "simplifiedSoulburn": "((2.0581 * hero_atk)) * (1 + ((0.0009 * hero_spd)))"
+            }
         }
     ],
     "specialtySkill": {
@@ -370,12 +452,43 @@
             "politics": 64
         }
     },
+    "camping": {
+        "options": [
+            "belief",
+            "horror-story"
+        ],
+        "reactions": {
+            "advice": 4,
+            "belief": -4,
+            "bizarre-story": -3,
+            "comforting-cheer": 6,
+            "complain": -4,
+            "criticism": -6,
+            "cute-cheer": 2,
+            "dream": 3,
+            "food-story": 4,
+            "gossip": -5,
+            "happy-memory": 5,
+            "heroic-cheer": 8,
+            "heroic-tale": 6,
+            "horror-story": 2,
+            "interesting-story": 1,
+            "joyful-memory": 5,
+            "myth": 4,
+            "occult": -2,
+            "reality-check": -2,
+            "sad-memory": 6,
+            "self-indulgent": -3,
+            "unique-comment": 2
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "spd+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -501,7 +614,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -571,5 +684,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Nice idea! I won't let you down.",
+    "description": "A paragon of righteousness and principle, a reliable companion of Ras's"
 }

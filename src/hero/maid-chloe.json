@@ -1,5 +1,7 @@
 {
+    "gameId": "c2049",
     "name": "Maid Chloe",
+    "surname": "",
     "rarity": 5,
     "classType": "soul-weaver",
     "element": "light",
@@ -10,7 +12,7 @@
     "relations": [
         {
             "hero": "karin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "coli",
@@ -22,57 +24,69 @@
         },
         {
             "hero": "adlay",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1260,
             "atk": 49,
             "hp": 268,
             "spd": 100,
             "def": 85,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 14678,
+        "lv50FiveStarNoAwaken": {
+            "cp": 10272,
+            "atk": 393,
+            "hp": 3559,
+            "spd": 100,
+            "def": 548,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11679,
+            "atk": 513,
+            "hp": 4219,
+            "spd": 104,
+            "def": 548,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.06,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12815,
+            "atk": 490,
+            "hp": 4475,
+            "spd": 100,
+            "def": 680,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15001,
             "atk": 640,
             "hp": 5297,
             "spd": 104,
             "def": 680,
-            "chc": 15,
-            "chd": 150,
-            "eff": 9,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4475,
-            "cp": 12815,
-            "spd": 100,
-            "atk": 490,
-            "def": 680,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3559,
-            "cp": 10272,
-            "spd": 100,
-            "atk": 393,
-            "def": 548,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,12 +105,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -104,12 +118,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -117,12 +131,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -130,16 +144,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 27000
+                            "item": "flame-of-soul",
+                            "qty": 3
                         }
                     ]
                 },
@@ -147,16 +161,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 40000
+                            "item": "flame-of-soul",
+                            "qty": 4
                         }
                     ]
                 },
@@ -164,16 +178,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "flame-of-soul",
+                            "qty": 7
                         }
                     ]
                 },
@@ -181,16 +195,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "demon-blood-gem",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 150000
+                            "item": "demon-blood-gem",
+                            "qty": 3
                         }
                     ]
                 }
@@ -198,7 +212,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_stun"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -215,25 +248,25 @@
                     "description": "+5% healing",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
                             "item": "molagora",
                             "qty": 1
-                        },
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -241,46 +274,46 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+5% healing",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
                         {
                             "item": "flame-of-soul",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+10% healing",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
                         {
                             "item": "flame-of-soul",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -288,16 +321,16 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "flame-of-soul",
+                            "qty": 7
                         }
                     ]
                 },
@@ -305,22 +338,41 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "demon-blood-gem",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 150000
+                            "item": "demon-blood-gem",
+                            "qty": 3
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -331,22 +383,22 @@
             "cooldown": 6,
             "name": "VIP Treatment",
             "soulAcquire": 3,
-            "description": "Entertains all allies with VIP Treatment, granting revive and increased Attack for 3 turns.",
+            "description": "Entertains all allies with VIP Treatment, reviving all dead allies to 20% Health, and granting revive for 3 turns to all living allies. Increases Attack of all allies for 3 turns.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "demon-blood-gem",
-                            "qty": 8
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 52000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 8
                         }
                     ]
                 }
@@ -355,7 +407,26 @@
                 "stic_bless",
                 "stic_att_up"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -369,12 +440,43 @@
             "politics": 52
         }
     },
+    "camping": {
+        "options": [
+            "comforting-cheer",
+            "food-story"
+        ],
+        "reactions": {
+            "advice": 2,
+            "belief": 3,
+            "bizarre-story": 0,
+            "comforting-cheer": 2,
+            "complain": 2,
+            "criticism": -4,
+            "cute-cheer": 5,
+            "dream": 4,
+            "food-story": 7,
+            "gossip": 2,
+            "happy-memory": 4,
+            "heroic-cheer": 5,
+            "heroic-tale": 5,
+            "horror-story": -4,
+            "interesting-story": 3,
+            "joyful-memory": 6,
+            "myth": 3,
+            "occult": -2,
+            "reality-check": -4,
+            "sad-memory": 3,
+            "self-indulgent": 3,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "efr%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -435,10 +537,10 @@
                     "hp": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -453,13 +555,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -478,10 +580,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -500,13 +602,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "4"
+                    "spd": 4
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -528,10 +630,10 @@
                     "hp": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -550,13 +652,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -570,5 +672,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Hi, hi! I'm this maid cafe's queen, Chloe!",
+    "description": "Clueless Queen of a maid cafe"
 }

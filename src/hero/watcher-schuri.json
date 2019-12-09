@@ -1,70 +1,84 @@
 {
+    "gameId": "c2020",
     "name": "Watcher Schuri",
+    "surname": "",
     "rarity": 4,
     "classType": "ranger",
     "element": "light",
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A member of the Sicar assasin organization. Watcher Schuri is an oustanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives of an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others.",
+    "background": "A member of the Sicar assassin organization, Watcher Schuri is an outstanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives off an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others.",
     "relations": [
         {
-            "hero": "haste",
-            "relationType": "trust"
+            "hero": "assassin-cidd",
+            "relationType": "friendly"
         },
         {
-            "hero": "assasin cartuja",
-            "relationType": "trust"
+            "hero": "assassin-cartuja",
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1207,
             "atk": 71,
             "hp": 294,
             "spd": 106,
             "def": 65,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 15800,
+        "lv50FiveStarNoAwaken": {
+            "cp": 10941,
+            "atk": 604,
+            "hp": 4138,
+            "spd": 106,
+            "def": 449,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12452,
+            "atk": 778,
+            "hp": 4726,
+            "spd": 106,
+            "def": 449,
+            "chc": 0.19,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13659,
+            "atk": 753,
+            "hp": 5203,
+            "spd": 106,
+            "def": 557,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15955,
             "atk": 970,
             "hp": 5935,
             "spd": 106,
             "def": 557,
-            "chc": 24,
-            "chd": 150,
+            "chc": 0.27,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 5203,
-            "cp": 13659,
-            "spd": 106,
-            "atk": 753,
-            "def": 557,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4138,
-            "cp": 10941,
-            "spd": 106,
-            "atk": 604,
-            "def": 449,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -83,12 +97,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -96,12 +110,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -109,16 +123,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -126,16 +140,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "sharp-spearhead",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -143,16 +157,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
@@ -160,7 +174,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_sign"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -170,18 +203,18 @@
             "cooldown": 4,
             "name": "Quickfire",
             "soulAcquire": 2,
-            "description": "Shots all enemies with a rifle, with a 75% chance to dispell one buff. The caster is granted increased speed for 2 turns.",
+            "description": "Shoots all enemies with a rifle, with a 75% chance to dispel one buff. The caster is granted increased speed for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -189,12 +222,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -202,16 +235,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -219,16 +252,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "sharp-spearhead",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -236,24 +269,45 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_spd_up"
+                "stic_speed_up"
             ],
-            "debuffs": []
+            "debuffs": [
+                "efct_dispel"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.05,
+                    "soulburn": 1.05
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.7,
+                    "soulburn": 0.7
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.7 * hero_atk)) * 1.05 * 1.871",
+                "simplified": "((1.3752 * hero_atk))",
+                "soulburn": "((0.7 * hero_atk)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((1.3752 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -269,12 +323,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -282,12 +336,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -295,16 +349,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -312,16 +366,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "sharp-spearhead",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -329,22 +383,43 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_def_pen"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.8,
+                    "soulburn": 0.8
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((1.422 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.422 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -358,12 +433,43 @@
             "politics": 38
         }
     },
+    "camping": {
+        "options": [
+            "unique-comment",
+            "advice"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": -1,
+            "bizarre-story": 0,
+            "comforting-cheer": 3,
+            "complain": 2,
+            "criticism": -5,
+            "cute-cheer": 6,
+            "dream": 5,
+            "food-story": 3,
+            "gossip": 2,
+            "happy-memory": 5,
+            "heroic-cheer": 5,
+            "heroic-tale": 0,
+            "horror-story": -1,
+            "interesting-story": 3,
+            "joyful-memory": 7,
+            "myth": 2,
+            "occult": 0,
+            "reality-check": -5,
+            "sad-memory": 6,
+            "self-indulgent": -1,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "spd+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -442,7 +548,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -489,7 +595,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": 4
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -514,7 +620,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -539,7 +645,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -559,5 +665,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Let's do our best together.",
+    "description": "A secretive Sicar assassin"
 }

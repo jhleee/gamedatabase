@@ -1,5 +1,7 @@
 {
+    "gameId": "c3063",
     "name": "Kiris",
+    "surname": "",
     "rarity": 3,
     "classType": "ranger",
     "element": "earth",
@@ -10,65 +12,77 @@
     "relations": [
         {
             "hero": "silk",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "kluri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "maya",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1068,
             "atk": 62,
             "hp": 246,
             "spd": 104,
             "def": 60,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 14494,
+        "lv50FiveStarNoAwaken": {
+            "cp": 10184,
+            "atk": 567,
+            "hp": 3688,
+            "spd": 104,
+            "def": 438,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11702,
+            "atk": 687,
+            "hp": 4028,
+            "spd": 110,
+            "def": 438,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12707,
+            "atk": 707,
+            "hp": 4637,
+            "spd": 104,
+            "def": 543,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15018,
             "atk": 857,
             "hp": 5057,
             "spd": 110,
             "def": 543,
-            "chc": 15,
-            "chd": 150,
-            "eff": 15,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.3,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4637,
-            "cp": 12707,
-            "spd": 104,
-            "atk": 707,
-            "def": 543,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3688,
-            "cp": 10184,
-            "spd": 104,
-            "atk": 567,
-            "def": 438,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -87,12 +101,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 1000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 50
                         }
                     ]
                 },
@@ -100,12 +114,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -113,12 +127,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "stigma",
+                            "qty": 230
                         }
                     ]
                 },
@@ -126,16 +140,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 21000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 400
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -143,16 +157,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 650
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 36000
                         }
                     ]
                 },
@@ -160,16 +174,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 39000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1000
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 },
@@ -177,16 +191,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 50000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1450
+                        },
+                        {
+                            "item": "slime-jelly",
+                            "qty": 6
                         }
                     ]
                 }
@@ -194,7 +208,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_dot"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 0.9 * 1.871",
+                "simplified": "((1.6839 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -211,12 +244,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -224,12 +257,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 3000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -237,16 +270,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 10000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 320
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
                         }
                     ]
                 },
@@ -254,33 +287,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 530
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 850
+                        },
                         {
                             "item": "slime-jelly",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -288,22 +321,43 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 48000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1340
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_debuf_extn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.7,
+                    "soulburn": 0.7
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.7 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.3097 * hero_atk))",
+                "soulburn": "((0.7 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.3097 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -320,16 +374,16 @@
                     "description": "+2 Soul acquired",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 14000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 250
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 18000
                         }
                     ]
                 },
@@ -337,22 +391,45 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 24000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 650
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "efct_ex_turn"
+            ],
+            "debuffs": [
+                "efct_debuf_extn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {
@@ -366,12 +443,43 @@
             "politics": 77
         }
     },
+    "camping": {
+        "options": [
+            "advice",
+            "reality-check"
+        ],
+        "reactions": {
+            "advice": -2,
+            "belief": 5,
+            "bizarre-story": -2,
+            "comforting-cheer": -3,
+            "complain": -3,
+            "criticism": 3,
+            "cute-cheer": 2,
+            "dream": 2,
+            "food-story": 4,
+            "gossip": -3,
+            "happy-memory": 0,
+            "heroic-cheer": 0,
+            "heroic-tale": 2,
+            "horror-story": -2,
+            "interesting-story": 2,
+            "joyful-memory": 4,
+            "myth": 0,
+            "occult": 3,
+            "reality-check": -3,
+            "sad-memory": 3,
+            "self-indulgent": 1,
+            "unique-comment": 4
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "hp+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -450,7 +558,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -493,7 +601,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -539,7 +647,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -559,5 +667,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Ah... did you call me?",
+    "description": "A Sicar assassin with a lot to hide"
 }

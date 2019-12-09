@@ -1,5 +1,7 @@
 {
+    "gameId": "c1004",
     "name": "Silk",
+    "surname": "Silkyria Eyu La Safayena",
     "rarity": 4,
     "classType": "ranger",
     "element": "earth",
@@ -10,11 +12,11 @@
     "relations": [
         {
             "hero": "rin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "iseria",
@@ -22,57 +24,69 @@
         },
         {
             "hero": "kiris",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1205,
             "atk": 83,
             "hp": 241,
             "spd": 117,
             "def": 61,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 10662,
+            "atk": 706,
+            "hp": 3399,
+            "spd": 117,
+            "def": 418,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12121,
+            "atk": 910,
+            "hp": 3739,
+            "spd": 121,
+            "def": 418,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13298,
+            "atk": 880,
+            "hp": 4273,
+            "spd": 117,
+            "def": 518,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 15378,
             "atk": 1188,
             "hp": 4693,
             "spd": 121,
             "def": 518,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4273,
-            "cp": 13298,
-            "spd": 117,
-            "atk": 880,
-            "def": 518,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3399,
-            "cp": 10662,
-            "spd": 117,
-            "atk": 706,
-            "def": 418,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -91,12 +105,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -104,12 +118,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -117,12 +131,12 @@
                     "description": "+1% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -130,16 +144,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "flame-of-soul",
+                            "qty": 1
                         }
                     ]
                 },
@@ -147,16 +161,16 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 30000
+                            "item": "flame-of-soul",
+                            "qty": 2
                         }
                     ]
                 },
@@ -164,16 +178,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 37000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "flame-of-soul",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 },
@@ -181,22 +195,68 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "demon-blood-gem",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "demon-blood-gem",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_cr_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.00075
+                },
+                {
+                    "name": "skill_dmg_list",
+                    "description": "Increased damage per focus over 2.",
+                    "value": [
+                        0,
+                        0,
+                        0.03,
+                        0.03,
+                        0.04,
+                        0.05
+                    ],
+                    "soulburn": [
+                        0,
+                        0,
+                        0.03,
+                        0.03,
+                        0.04,
+                        0.05
+                    ]
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + skill_dmg_list)) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 0, 0.03, 0.03, 0.04, 0.05]))) * 0.9 * 1.871",
+                "simplified": "((1.5155 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 0, 0.03, 0.03, 0.04, 0.05])))",
+                "soulburn": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 0, 0.03, 0.03, 0.04, 0.05]))) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.5155 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 0, 0.03, 0.03, 0.04, 0.05])))"
+            }
         },
         {
             "isPassive": true,
@@ -207,35 +267,18 @@
             "cooldown": 0,
             "name": "Concentration",
             "soulAcquire": 0,
-            "description": "Gains 1 Focus at the end of the turn, and consumes 2 Focus when attacked. If the caster's stacked Focus is more than 2, Single Shoot is enhanced to Automatic Fire and damage dealt is increased.",
+            "description": "Gains 1 Focus at the end of the turn, and consumes 1 Focus when attacked. If the caster's stacked Focus is more than 2, Single Shoot is enhanced to Automatic Fire and damage dealt is increased.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt by Automatic Fire",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt by Automatic Fire",
-                    "resources": [
-                        {
-                            "item": "flame-of-soul",
-                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 21000
+                            "qty": 1
                         }
                     ]
                 },
@@ -243,16 +286,16 @@
                     "description": "+5% damage dealt by Automatic Fire",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "flame-of-soul",
+                            "qty": 1
                         }
                     ]
                 },
@@ -260,22 +303,58 @@
                     "description": "+5% damage dealt by Automatic Fire",
                     "resources": [
                         {
-                            "item": "demon-blood-gem",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt by Automatic Fire",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "demon-blood-gem",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -286,18 +365,18 @@
             "cooldown": 5,
             "name": "Storm Arrow",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with wind, with a 80% chance to decrease Speed for 2 turns, and granting increased Speed to all allies for 2 turns.",
+            "description": "Attacks all enemies with wind, with a 85% chance to decrease Speed for 2 turns, and granting increased Speed to all allies for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -305,16 +384,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 21000
+                            "item": "flame-of-soul",
+                            "qty": 1
                         }
                     ]
                 },
@@ -322,16 +401,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "flame-of-soul",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "flame-of-soul",
+                            "qty": 1
                         }
                     ]
                 },
@@ -339,16 +418,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "demon-blood-gem",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "demon-blood-gem",
+                            "qty": 2
                         }
                     ]
                 }
@@ -358,7 +437,26 @@
             ],
             "debuffs": [
                 "stic_speed_dn"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.05,
+                    "soulburn": 1.05
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.85,
+                    "soulburn": 0.85
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * 1.05 * 1.871",
+                "simplified": "((1.6699 * hero_atk))",
+                "soulburn": "((0.85 * hero_atk)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((1.6699 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -372,12 +470,43 @@
             "politics": 40
         }
     },
+    "camping": {
+        "options": [
+            "food-story",
+            "happy-memory"
+        ],
+        "reactions": {
+            "advice": 5,
+            "belief": 4,
+            "bizarre-story": 2,
+            "comforting-cheer": 8,
+            "complain": -8,
+            "criticism": 1,
+            "cute-cheer": 5,
+            "dream": 4,
+            "food-story": 3,
+            "gossip": 0,
+            "happy-memory": -1,
+            "heroic-cheer": 5,
+            "heroic-tale": 3,
+            "horror-story": -2,
+            "interesting-story": 0,
+            "joyful-memory": 5,
+            "myth": 1,
+            "occult": 0,
+            "reality-check": -2,
+            "sad-memory": 3,
+            "self-indulgent": -6,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": false,
         "south": true,
         "east": true,
         "west": false
     },
+    "memoryImprintAttribute": "atk%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -438,10 +567,10 @@
                     "atk": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -459,10 +588,10 @@
                     "atk": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -481,10 +610,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -503,13 +632,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "4"
+                    "spd": 4
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -531,10 +660,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -556,10 +685,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -573,5 +702,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I love running with the wind!",
+    "description": "A gentle Elf walking within the Eternal Wind"
 }

@@ -1,7 +1,9 @@
 {
     "name": "Idol's Cheer",
     "rarity": 5,
-    "exclusive": ["soul-weaver"],
+    "exclusive": [
+        "soul-weaver"
+    ],
     "loreDescription": [
         "I believe that music can change the world. Because it changed me!"
     ],
@@ -18,5 +20,9 @@
             "atk": 195,
             "hp": 702
         }
-    }
+    },
+    "buffs": [
+        "efct_cr_up"
+    ],
+    "debuffs": []
 }

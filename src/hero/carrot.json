@@ -1,10 +1,12 @@
 {
+    "gameId": "c3051",
     "name": "Carrot",
+    "surname": "Ranka",
     "rarity": 3,
     "classType": "mage",
     "element": "fire",
     "zodiac": "sagittarius",
-    "specialtyChangeName": "",
+    "specialtyChangeName": "researcher-carrot",
     "selfSkillBarName": "",
     "background": "A member of the Magic Research Institute, Carrot sometimes helps the Student Council with their accounting at the request of Ginger and Hazel due to her talent with numbers. She is usually rational, except for her habit of wearing decorative ears to ward off jinxes.",
     "relations": [
@@ -14,89 +16,109 @@
         },
         {
             "hero": "hazel",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "schuri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "wanda",
-            "relationType": "trust"
+            "relationType": "friendly"
+        },
+        {
+            "hero": "cermia",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "tamarinne",
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1122,
             "atk": 72,
             "hp": 186,
             "spd": 106,
             "def": 67,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 14760,
+        "lv50FiveStarNoAwaken": {
+            "cp": 10185,
+            "atk": 655,
+            "hp": 2788,
+            "spd": 106,
+            "def": 489,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11614,
+            "atk": 833,
+            "hp": 3128,
+            "spd": 110,
+            "def": 489,
+            "chc": 0.19,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12691,
+            "atk": 816,
+            "hp": 3505,
+            "spd": 106,
+            "def": 606,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 14932,
             "atk": 1039,
             "hp": 3925,
             "spd": 110,
             "def": 606,
-            "chc": 24,
-            "chd": 150,
+            "chc": 0.27,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3505,
-            "cp": 12691,
-            "spd": 106,
-            "atk": 816,
-            "def": 606,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 2788,
-            "cp": 10185,
-            "spd": 106,
-            "atk": 655,
-            "def": 489,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Increases detonation chance to 100%.",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Flourish",
+            "name": "Swing",
             "soulAcquire": 1,
-            "description": "Attacks with a staff, with a 35% chance to decrease Speed for 2 turns.",
+            "description": "Attacks with a staff, with a 35% chance to decrease Speed for 2 turns, before a 30% chance to detonate burn effects inflicted on the enemy at the end of the turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 80
                         }
                     ]
                 },
@@ -104,12 +126,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 3000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 180
                         }
                     ]
                 },
@@ -117,16 +139,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 10000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 320
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
                         }
                     ]
                 },
@@ -134,16 +156,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 530
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
                         }
                     ]
                 },
@@ -151,16 +173,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 850
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -168,24 +190,44 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 48000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1340
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_speed_dn"
-            ]
+                "stic_speed_dn",
+                "efct_detonate"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((1.7774 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.7774 * hero_atk))"
+            }
         },
         {
             "isPassive": true,
@@ -196,39 +238,39 @@
             "cooldown": 1,
             "name": "Flame Barrier",
             "soulAcquire": 0,
-            "description": "30% chance after being attacked to grant a barrier to the caster for 1 turn, and burn the attacker for 1 turn. Barrier strength increases proportional to the caster's Attack.",
+            "description": "After being attacked, grants the caster a barrier for 1 turn and burns the attacker for 1 turn. Barrier strength increases proportional to the caster's Attack.",
             "enhancement": [
                 {
-                    "description": "+10% trigger chance",
+                    "description": "+15% barrier strength",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 14000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 250
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 18000
                         }
                     ]
                 },
                 {
-                    "description": "+10% trigger chance",
+                    "description": "+15% barrier strength",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 24000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 650
+                        },
                         {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 }
@@ -238,13 +280,32 @@
             ],
             "debuffs": [
                 "stic_blaze"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Grants an extra turn.",
+            "soulBurnEffect": "",
             "awakenUpgrade": true,
             "cooldown": 4,
             "name": "Blaze Explosion",
@@ -255,38 +316,38 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 1000
                         },
+                        {
+                            "item": "stigma",
+                            "qty": 50
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
+                            "item": "stigma",
+                            "qty": 230
                         }
                     ]
                 },
@@ -294,16 +355,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 21000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 400
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -311,16 +372,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 650
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 36000
                         }
                     ]
                 },
@@ -328,16 +389,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 39000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1000
+                        },
+                        {
                             "item": "archers-vision",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 },
@@ -345,16 +406,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 50000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1450
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 6
                         }
                     ]
                 }
@@ -362,7 +423,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_blaze"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -376,12 +456,43 @@
             "politics": 10
         }
     },
+    "camping": {
+        "options": [
+            "complain",
+            "advice"
+        ],
+        "reactions": {
+            "advice": 2,
+            "belief": 2,
+            "bizarre-story": -2,
+            "comforting-cheer": -2,
+            "complain": 0,
+            "criticism": 5,
+            "cute-cheer": 1,
+            "dream": -3,
+            "food-story": 0,
+            "gossip": 1,
+            "happy-memory": 0,
+            "heroic-cheer": 2,
+            "heroic-tale": 0,
+            "horror-story": 2,
+            "interesting-story": 0,
+            "joyful-memory": 1,
+            "myth": -1,
+            "occult": -1,
+            "reality-check": 5,
+            "sad-memory": 0,
+            "self-indulgent": -1,
+            "unique-comment": 3
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -460,7 +571,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -549,7 +660,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -569,5 +680,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Efficiency in everything I do! Especially magic and math.",
+    "description": "A sassy magic researcher who sees all magic as math"
 }

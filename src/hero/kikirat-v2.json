@@ -1,12 +1,14 @@
 {
+    "gameId": "c3084",
     "name": "Kikirat v2",
+    "surname": "",
     "rarity": 3,
     "classType": "knight",
     "element": "light",
     "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Machinery based on the Kikirat. It has cleaning functionality for comfort, but often mistakes Humans for trash.",
+    "background": "Machinery based on the Kikirat. It has cleaning functionality for comfort, but often mistakes Humans for trash.",
     "relations": [
         {
             "hero": "",
@@ -14,53 +16,65 @@
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 1117,
             "atk": 45,
             "hp": 280,
             "spd": 90,
             "def": 72,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
+        "lv50FiveStarNoAwaken": {
+            "cp": 10626,
+            "atk": 414,
+            "hp": 4202,
+            "spd": 90,
+            "def": 525,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 12229,
+            "atk": 534,
+            "hp": 4542,
+            "spd": 90,
+            "def": 603,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13272,
+            "atk": 517,
+            "hp": 5284,
+            "spd": 90,
+            "def": 652,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
             "cp": 15494,
             "atk": 667,
             "hp": 5704,
             "spd": 90,
             "def": 749,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 5284,
-            "cp": 13272,
-            "spd": 90,
-            "atk": 517,
-            "def": 652,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4202,
-            "cp": 10626,
-            "spd": 90,
-            "atk": 414,
-            "def": 525,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -73,18 +87,18 @@
             "cooldown": 0,
             "name": "Auto-Fire",
             "soulAcquire": 1,
-            "description": "Attacks with a gatling gun, with a 50% chance to dispel one buff. Damage dealt increases proportional to the caster's Defense.",
+            "description": "Attacks with a gatling gun, with a 65% chance to dispel one buff. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -92,12 +106,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -105,16 +119,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -122,16 +136,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -139,22 +153,48 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "efct_dispel"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.5,
+                    "soulburn": 0.5
+                },
+                {
+                    "name": "def_rate",
+                    "value": 0.7,
+                    "soulburn": 0.7
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
+                "value": "((0.5 * hero_atk) + (0.7 * hero_def)) * 1 * 1.871",
+                "simplified": "((0.9355 * hero_atk) + (1.3097 * hero_def))",
+                "soulburn": "((0.5 * hero_atk) + (0.7 * hero_def)) * 1 * 1.871",
+                "simplifiedSoulburn": "((0.9355 * hero_atk) + (1.3097 * hero_def))"
+            }
         },
         {
             "isPassive": true,
@@ -165,65 +205,65 @@
             "cooldown": 0,
             "name": "Defense Mode",
             "soulAcquire": 0,
-            "description": "Increases Defense of the caster by 3.0% after attacking. Effect can only stack up to 5 times.",
+            "description": "Increases Defense of the caster by 7.0% after attacking. Effect can only stack up to 5 times.",
             "enhancement": [
                 {
                     "description": "+0.5% Defense",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+0.5% Defense",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+0.5% Defense",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
                 {
                     "description": "+0.5% Defense",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
                         {
                             "item": "slime-jelly",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+0.5% Defense",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
                         {
                             "item": "slime-jelly",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -231,22 +271,41 @@
                     "description": "+1% Defense",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -254,7 +313,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 4,
+            "cooldown": 3,
             "name": "Cleaning Mode",
             "soulAcquire": 2,
             "description": "Fires indiscriminately at all enemies, with a 60% chance to decrease Hit Chance for 1 turn, before triggering counterattacks from the caster for 2 turns. Damage dealt increases proportional to the caster's Defense.",
@@ -263,12 +322,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 2000
                         },
                         {
-                            "item": "gold",
-                            "qty": 4000
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -276,12 +335,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "stigma",
+                            "qty": 270
                         }
                     ]
                 },
@@ -289,16 +348,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
                         }
                     ]
                 },
@@ -306,16 +365,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
                         }
                     ]
                 },
@@ -323,16 +382,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
                             "item": "slime-jelly",
                             "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
                         }
                     ]
                 }
@@ -342,19 +401,47 @@
             ],
             "debuffs": [
                 "stic_blind"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.4,
+                    "soulburn": 0.5
+                },
+                {
+                    "name": "def_rate",
+                    "value": 0.5,
+                    "soulburn": 0.6
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
+                "value": "((0.4 * hero_atk) + (0.5 * hero_def)) * 1 * 1.871",
+                "simplified": "((0.7484 * hero_atk) + (0.9355 * hero_def))",
+                "soulburn": "((0.5 * hero_atk) + (0.6 * hero_def)) * 1 * 1.871",
+                "simplifiedSoulburn": "((0.9355 * hero_atk) + (1.1226 * hero_def))"
+            }
         }
     ],
     "specialtySkill": {
         "name": "",
         "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "",
+        "enhancement": "",
         "stats": {
             "command": 0,
             "charm": 0,
             "politics": 0
         }
+    },
+    "camping": {
+        "options": [],
+        "reactions": {}
     },
     "memoryImprintFormation": {
         "north": true,
@@ -362,6 +449,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "hp+",
     "memoryImprint": [
         {
             "rank": "d",
@@ -440,7 +528,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "efr": 0.06
                 },
                 {
                     "atk": 20
@@ -529,7 +617,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "efr": 0.12
                 },
                 {
                     "atk": 30
@@ -549,5 +637,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "",
+    "description": "High-tech machinery\\nmodeled after Gigantes"
 }

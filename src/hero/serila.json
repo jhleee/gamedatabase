@@ -1,5 +1,7 @@
 {
+    "gameId": "c1040",
     "name": "Serila",
+    "surname": "",
     "rarity": 4,
     "classType": "mage",
     "element": "fire",
@@ -14,61 +16,73 @@
         },
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
-        "base": {
-            "cp": 1344,
+        "lv1BaseStarNoAwaken": {
+            "cp": 1362,
             "atk": 92,
             "hp": 218,
-            "spd": 101,
+            "spd": 106,
             "def": 80,
-            "chc": 15,
-            "chd": 150,
+            "chc": 0.15,
+            "chd": 1.5,
             "eff": 0,
             "efr": 0,
-            "dac": 5
+            "dac": 0.05
         },
-        "max": {
-            "cp": 16292,
+        "lv50FiveStarNoAwaken": {
+            "cp": 11621,
+            "atk": 786,
+            "hp": 3077,
+            "spd": 106,
+            "def": 551,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 13166,
+            "atk": 976,
+            "hp": 3601,
+            "spd": 106,
+            "def": 551,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.06,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14485,
+            "atk": 980,
+            "hp": 3869,
+            "spd": 106,
+            "def": 683,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 16900,
             "atk": 1218,
             "hp": 4521,
-            "spd": 101,
+            "spd": 106,
             "def": 683,
-            "chc": 15,
-            "chd": 150,
-            "eff": 9,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
             "efr": 0,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3869,
-            "cp": 14292,
-            "spd": 101,
-            "atk": 980,
-            "def": 683,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3077,
-            "cp": 11467,
-            "spd": 101,
-            "atk": 786,
-            "def": 551,
-            "efr": 0
+            "dac": 0.05
         }
     },
     "skills": [
@@ -81,31 +95,31 @@
             "cooldown": 0,
             "name": "Seduction",
             "soulAcquire": 1,
-            "description": "Attacks with a flame of seduction, decreasing Combat Readiness by 7%.",
+            "description": "Attacks with a flame of seduction, with a 35% chance to decrease Defense for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
-                    "description": "+1% Combat Readiness",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -113,33 +127,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "leather-sheath",
+                            "qty": 1
                         }
                     ]
                 },
                 {
-                    "description": "+2% Combat Readiness",
+                    "description": "+10% effect chance",
                     "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
                         {
                             "item": "leather-sheath",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -147,22 +161,43 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fighter-medal",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "fighter-medal",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_def_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -179,12 +214,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -192,12 +227,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -205,16 +240,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "leather-sheath",
+                            "qty": 1
                         }
                     ]
                 },
@@ -222,16 +257,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -239,16 +274,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fighter-medal",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "fighter-medal",
+                            "qty": 2
                         }
                     ]
                 }
@@ -258,7 +293,26 @@
             ],
             "debuffs": [
                 "stic_att_dn"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.05,
+                    "soulburn": 1.05
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.5,
+                    "soulburn": 2
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * 1.05 * 1.871",
+                "simplified": "((2.9468 * hero_atk))",
+                "soulburn": "((2 * hero_atk)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((3.9291 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -266,21 +320,21 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Flame Kiss",
             "soulAcquire": 3,
-            "description": "Swallows the enemy in the flame of Chatty, the magic lantern, with a 60% chance each to inflict two burn effects for 2 turns.",
+            "description": "Swallows the enemy in the flame of Chatty, the magic lantern, with a 85% chance each to inflict two burn effects for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -288,12 +342,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 4000
                         },
                         {
-                            "item": "gold",
-                            "qty": 8000
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -301,16 +355,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "leather-sheath",
+                            "qty": 1
                         }
                     ]
                 },
@@ -318,16 +372,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "leather-sheath",
                             "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
                         }
                     ]
                 },
@@ -335,16 +389,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fighter-medal",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "fighter-medal",
+                            "qty": 2
                         }
                     ]
                 }
@@ -352,7 +406,26 @@
             "buffs": [],
             "debuffs": [
                 "stic_blaze"
-            ]
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.05,
+                    "soulburn": 1.05
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.8,
+                    "soulburn": 1.8
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * 1.05 * 1.871",
+                "simplified": "((3.5362 * hero_atk))",
+                "soulburn": "((1.8 * hero_atk)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((3.5362 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
@@ -366,12 +439,43 @@
             "politics": 85
         }
     },
+    "camping": {
+        "options": [
+            "happy-memory",
+            "self-indulgent"
+        ],
+        "reactions": {
+            "advice": 0,
+            "belief": 5,
+            "bizarre-story": -2,
+            "comforting-cheer": -2,
+            "complain": -2,
+            "criticism": 6,
+            "cute-cheer": 3,
+            "dream": 0,
+            "food-story": 2,
+            "gossip": 1,
+            "happy-memory": 1,
+            "heroic-cheer": 5,
+            "heroic-tale": 1,
+            "horror-story": 2,
+            "interesting-story": 0,
+            "joyful-memory": 1,
+            "myth": 3,
+            "occult": 1,
+            "reality-check": 3,
+            "sad-memory": -1,
+            "self-indulgent": 1,
+            "unique-comment": 1
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "eff%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -450,7 +554,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -547,7 +651,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -567,5 +671,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Oh my, you were looking for me?",
+    "description": "A glamorous witch who loves beautiful things"
 }
